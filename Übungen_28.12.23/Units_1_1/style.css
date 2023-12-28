@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section img:nth-of-type(1) {
+  height: 400px;
+}
+section img:nth-of-type(2) {
+  height: 50%;
+  width: 50%;
+}
+section img:nth-of-type(3) {
+  height: 20em;
+  width: 20em;
+}
+section img:nth-of-type(4) {
+  height: 40rem;
+  width: 40rem;
+}
+section img:nth-of-type(5) {
+  height: 35vw;
+  width: 35vw;
+}
+section img:nth-of-type(6) {
+  height: 75vh;
+  width: 75vh;
+}
+
+/* ! Manche Bilder verschieben sich mit der Seite, bleiben aber auf ihrer Größe.
+! Manche Bilder jedoch vergrößern oder verkleinern beim skalieren des Browsers. */

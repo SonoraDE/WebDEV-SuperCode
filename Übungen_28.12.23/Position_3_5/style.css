@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/Poppins/Poppins-Regular.ttf);
+}
+
+html {
+  font-family: Poppins;
+}
+
+header {
+  height: 637px;
+  background-image: url(./assets/div.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 71px;
+  display: block;
+  position: sticky;
+  top: 0;
+  margin-top: -71px;
+}
+
+nav a {
+  text-align: right;
+  text-decoration: none;
+  color: white;
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+nav a:nth-of-type(1) {
+  padding-left: 1300px;
+}
+
+section {
+  width: 1275px;
+  margin: auto;
+}
+
+section img {
+  height: 200px;
+  width: 400px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+footer section p {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 600px;
+}
+
+hr {
+  height: 5px;
+  width: 120px;
+  margin: auto;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+nav p {
+  font-size: 35px;
+  padding-left: 40px;
+  display: inline-block;
+  padding-top: 10px;
+}
