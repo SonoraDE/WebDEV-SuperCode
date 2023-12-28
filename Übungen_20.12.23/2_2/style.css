@@ -1,0 +1,43 @@
+@font-face {
+  font-family: press;
+  src: url(../2_2/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+@font-face {
+  font-family: chelsea;
+  src: url(../2_2/assets/fonts/Chelsea_Market/ChelseaMarket-Regular.ttf);
+}
+@font-face {
+  font-family: fredoka;
+  src: url(../2_2/assets/fonts/Fredoka/Fredoka-VariableFont_wdth\wght.ttf);
+}
+@font-face {
+  font-family: pacifico;
+  src: url(../2_2/assets/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+body h1 {
+  background-color: greenyellow;
+  font-family: press;
+}
+
+p {
+  font-family: pacifico;
+}
+
+em {
+  line-height: 25px;
+  font-size: larger;
+  text-shadow: 2px 0px 0px red;
+}
+
+strong {
+  font-family: fredoka;
+  font-size: 6px;
+}
+
+a {
+  color: black;
+  font-size: 10px;
+  font-family: chelsea;
+  text-decoration: none;
+}

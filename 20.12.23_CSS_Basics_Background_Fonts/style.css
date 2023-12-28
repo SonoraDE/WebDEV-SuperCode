@@ -1,0 +1,59 @@
+/* ! COMMAND MIT COMMAND SHIFT + 7 */
+
+/* ? Nimmt das letzte Element der Gruppe UL */
+section ul li:last-child {
+  background-color: beige;
+}
+
+section h2:last-of-type {
+  background-color: pink;
+  color: white;
+}
+
+footer article {
+  height: 150px;
+  background-image: url(https://media.discordapp.net/attachments/1176089186667855872/1185986843112636446/AV-WINTER.png?ex=65919b51&is=657f2651&hm=1183b7d4eee316560032e176663677368ea992d6976db8d3f1369b110900dc84&=&format=webp&quality=lossless&width=1028&height=1028);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* Das Attribut muss alleine stehen (Dient dazu das volle Bild zu sehen)*/
+  /* Die oberen Attribute in einer Zeile zusammen gefügt */
+  /* background: url(https://media.discordapp.net/attachments/1176089186667855872/1185986843112636446/AV-WINTER.png?ex=65919b51&is=657f2651&hm=1183b7d4eee316560032e176663677368ea992d6976db8d3f1369b110900dc84&=&format=webp&quality=lossless&width=1028&height=1028) no-repeat center; */
+
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: mainfont;
+  src: url(./Kanit/Kanit-Regular.ttf);
+}
+
+/* body {
+   BODY WIRD NIEMALS GESTYLT
+} */
+
+html {
+  font-family: mainfont, Arial, Helvetica, sans-serif;
+}
+
+footer h2 {
+  font-family: mainfont, Arial, Helvetica, sans-serif;
+}
+/* article p {
+  background-color: red;
+}
+
+article a {
+  color: aliceblue;
+  background-color: brown;
+} */
+
+/* mehrere Elemente den selben Style geben mit Komma Trennung */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-color: bisque;
+  font-weight: 500;
+} */

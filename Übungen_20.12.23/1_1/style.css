@@ -1,0 +1,13 @@
+section h2 {
+  background-color: rgb(158, 210, 255);
+}
+
+section p {
+  background-color: rgb(255, 244, 188);
+}
+
+article {
+  background-image: url(https://images.unsplash.com/photo-1508669232496-137b159c1cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlfHx8fHx8MTcwMzA3NTI4Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);
+  background-size: contain;
+  background-position: center;
+}

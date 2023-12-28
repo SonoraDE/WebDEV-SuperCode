@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basics</title>
+    <meta name="description" content="CSS Basics File" />
+    <meta name="keywords" content="HTML, CSS, Basics" />
+    <meta name="author" content="Tobias Tischer" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <ol>
+        <li>hund</li>
+        <li>katze</li>
+        <li>maus</li>
+      </ol>
+
+      <ul>
+        <li>hund</li>
+        <li>katze</li>
+        <li>maus</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h1>Nicht semantische Elemente sind:</h1>
+        <!-- <span> nur in anderen Text Elementen nutzen und nicht alleine stehend-->
+        <p>
+          Lorem ipsum dolor, <span>SPAN TEST ELEMENT</span> consectetur
+          adipisicing elit. Eveniet, molestias. Blanditiis eveniet corporis
+          dolorum quo quisquam excepturi ratione iste officiis minus distinctio
+          nisi laborum aliquam deserunt esse mollitia, aspernatur facilis?
+        </p>
+        <ol>
+          <li>div</li>
+          <li>span</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Block Elemente und Inline Elemente</h2>
+        <!-- Block Elemente nehmen 100% der Breite des Bildschirms ein -->
+        <!-- Block Elemente werden immer untereinander eingeordnet-->
+        <h4>Beispiele für Block Elemente</h4>
+        <ul>
+          <li>article</li>
+          <li>section</li>
+          <li>div</li>
+          <li>footer</li>
+          <li>header</li>
+          <li>li</li>
+          <li>H1-H6</li>
+          <li>ol und ul</li>
+          <li>li</li>
+          <li>p</li>
+        </ul>
+
+        <article>
+          <p>Hallo Welt</p>
+          <p>Hallo Welt</p>
+        </article>
+
+        <!-- Inline Elemente nehmen nur die Breite ein die der Content her gibt-->
+        <!-- Inline Elemente werden immer nebeneinander eingeordnet bis kein Platz mehr ist-->
+        <h4>Beispiele für Inline Elemente</h4>
+        <ul>
+          <li>a</li>
+          <li>button</li>
+          <li>img</li>
+          <li>input</li>
+          <li>label</li>
+          <li>textarea</li>
+          <li>span</li>
+        </ul>
+      </section>
+
+      <article>
+        <a href="#">Ich bin ein Link</a>
+        <a href="#">Noch eins</a>
+        <a href="#">Noch eins</a>
+      </article>
+
+      <section>
+        <h2>Drei Möglichkeiten CSS im HTML einzubinden</h2>
+
+        <h3>1. Extern</h3>
+        <p>
+          Im Head kommt der link mit CSS Pfad rein zum anknöpfen der CSS Datei
+        </p>
+        <!-- <link rel="stylesheet" href="./style.css" /> -->
+
+        <h3>2. Intern</h3>
+        <p>Wir können im "Head" per Style Element internes CSS ausführen.</p>
+        <p>
+          Ist nicht empfehlenswert aufgrund von schlechterer Übersicht. HTML
+          soll HTML bleiben und CSS soll CSS bleiben.
+        </p>
+        <!-- <style> 
+            body {
+                background-color: red;
+            }-->
+
+        <h3 style="background-color: red; color: green">3. Inline Style</h3>
+        <p>
+          Wir können zum Beispiel einem H3 einen Style zuweisen und somit inline
+          stylen
+        </p>
+        <p>Auch das wird nicht empfohlen, da man HTML und CSS vermischt</p>
+        <p>
+          Um mehrere Attribute zu verwenden trennen wir mit einem ; ab nach dem
+          Attribut.
+        </p>
+      </section>
+
+      <section>
+        <h2>Fonts einbinden</h2>
+        <ol>
+          <li>Extern</li>
+          <li>Intern (Runtergeladen / local)</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="#">IMPRESSUM</a>
+        <a href="#">DISCORD</a>
+        <a href="#">KONTAKT</a>
+      </nav>
+      <article></article>
+      <h2>Ich bin eine andere Font ...</h2>
+    </footer>
+  </body>
+</html>

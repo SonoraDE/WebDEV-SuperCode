@@ -1,0 +1,19 @@
+section {
+  background-color: grey;
+}
+
+header section {
+  color: red;
+}
+main img {
+  height: 400px;
+  width: 400px;
+}
+
+span {
+  color: red;
+}
+
+main p:nth-of-type(1) {
+  color: red;
+}

@@ -1,0 +1,112 @@
+p {
+  color: blueviolet;
+}
+
+h1 {
+  border-style: dotted;
+  border-radius: 12px;
+  display: block;
+  padding: 10px;
+  margin-left: 35%;
+  width: 430px;
+  text-align: center;
+}
+h2 {
+  border-radius: 30px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 35%;
+  width: 430px;
+  text-align: center;
+  box-shadow: 0px 0px 10px black;
+}
+
+p:nth-of-type(1) {
+  border-color: orange;
+  border-style: solid;
+  display: block;
+  padding: 15px;
+  margin-left: 20%;
+  width: 830px;
+  text-align: center;
+}
+p:nth-of-type(2) {
+  border-color: orange;
+  border-style: solid;
+  display: block;
+  padding: 15px;
+  margin-left: 20%;
+  width: 830px;
+  text-align: center;
+}
+p:nth-of-type(3) {
+  border-color: orange;
+  border-style: solid;
+  display: block;
+  padding: 15px;
+  margin-left: 20%;
+  width: 830px;
+  text-align: center;
+}
+p:nth-of-type(4) {
+  border-color: orange;
+  border-style: solid;
+  display: block;
+  padding: 15px;
+  margin-left: 20%;
+  width: 830px;
+  text-align: center;
+}
+p:nth-of-type(5) {
+  border-color: orange;
+  border-style: solid;
+  display: block;
+  padding: 15px;
+  margin-left: 20%;
+  width: 830px;
+  text-align: center;
+}
+p:nth-of-type(6) {
+  border-color: orange;
+  border-style: solid;
+  display: block;
+  padding: 15px;
+  margin-left: 20%;
+  width: 830px;
+  text-align: center;
+}
+
+ol {
+  border-color: rgb(146, 255, 153);
+  border-style: dotted;
+  width: 600px;
+  height: 80px;
+  display: inline-block;
+  padding-top: 10px;
+  text-decoration: underline;
+  text-decoration-color: green;
+  margin-left: 28%;
+}
+
+h3 {
+  border: double 10px;
+  border-color: greenyellow;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 42%;
+  width: 200px;
+  text-align: center;
+}
+
+ul {
+  border-color: rgb(146, 255, 153);
+  border-style: dotted;
+  width: 300px;
+  height: 80px;
+  display: inline-block;
+  padding-top: 10px;
+  text-decoration: underline;
+  text-decoration-color: green;
+  margin-left: 37%;
+}

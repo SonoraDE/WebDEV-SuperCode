@@ -1,0 +1,23 @@
+div {
+  background-color: grey;
+}
+
+header h3 {
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  color: brown;
+}
+
+section p:nth-of-type(2),
+:nth-of-type(4) {
+  font-family: mainfont;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: mainfont, Arial, Helvetica, sans-serif;
+  src: url(./Kanit/Kanit-Regular.ttf);
+}
