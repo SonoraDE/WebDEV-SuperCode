@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@font-face {
+  font-family: clickerscript;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+@font-face {
+  font-family: playfair;
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+header {
+  background: url(../img/coffee_image.png);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: playfair;
+  margin-bottom: 40px;
+}
+
+header section {
+  color: white;
+  margin-left: 80px;
+}
+
+.logo {
+  font-family: clickerscript;
+  font-size: 35px;
+}
+
+.navbar {
+  font-size: 14px;
+  text-align: center;
+  padding-left: 18vw;
+  padding-right: 18vw;
+}
+
+.navbar a {
+  margin: 25px;
+}
+
+.navbtn {
+  font-size: 14px;
+}
+
+.navbtn a {
+  margin: 25px;
+}
+
+section h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+header section p:nth-of-type(1) {
+  font-size: 190px;
+  font-family: clickerscript;
+}
+header section p:nth-of-type(2) {
+  font-size: 20px;
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  color: black;
+  border-radius: 24px;
+  background-color: #f9c06a;
+  padding: 10px 20px;
+}
+
+main {
+  height: 100vh;
+  background-color: white;
+}
+
+.fpage h2 {
+  color: #603809;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+main p {
+  font-size: 20px;
+  color: #707070;
+  width: 600px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+main a {
+  margin-left: 50px;
+}
+
+main article {
+  background: url(../img/stylized-cup-coffee-out-coffee-beans-flat-lay\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 350px;
+  margin-right: 150px;
+}
+
+main div {
+  background: url(../img/coffee_blast.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 350px;
+  background-position: left;
+}
+
+.spage h2 {
+  color: #603809;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.spage p {
+  font-size: 20px;
+  color: #707070;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
