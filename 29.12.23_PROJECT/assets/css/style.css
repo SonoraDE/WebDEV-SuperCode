@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Didact;
+  src: url(../fonts/Didact_Gothic/DidactGothic-Regular.ttf);
+}
+@font-face {
+  font-family: FjallaOne;
+  src: url(../fonts/Fjalla_One/FjallaOne-Regular.ttf);
+}
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/Work_Sans/static/WorkSans-Regular.ttf);
+}
+
+header p {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 20px;
+  margin-top: 25px;
+  font-family: WorkSans;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+  font-size: 50px;
+  font-family: Didact;
+  width: 200px;
+}
+
+header section div img {
+  height: 800px;
+  width: 600px;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 100px;
+  font-family: WorkSans;
+}
+
+.orbis {
+  background-image: url(../img/4.jpeg);
+  height: 800px;
+  display: block;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rollr {
+  background-image: url(../img/3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+}
+
+.galitos {
+  background-image: url(../img/2.jpeg);
+  height: 800px;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blackbg {
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+}
+
+.tretto {
+  background-image: url(../img/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+}
+
+.year {
+  color: white;
+  margin-left: 150px;
+  padding-top: 150px;
+  font-size: 25px;
+  margin-bottom: 100px;
+  font-family: WorkSans;
+}
+
+.title {
+  color: white;
+  margin-left: 150px;
+  font-size: 70px;
+  margin-bottom: 100px;
+  font-family: Didact;
+}
+
+.info {
+  color: white;
+  margin-left: 150px;
+  font-size: 25px;
+  margin-bottom: 100px;
+  font-family: WorkSans;
+}
+
+.btn {
+  color: white;
+  margin-left: 150px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  font-family: FjallaOne;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  border-radius: 10px;
+}
+
+.btn-two:hover {
+  border-radius: 10px;
+}
+
+.number {
+  position: absolute;
+  color: #ffffff;
+  font-size: 200px;
+  right: 80px;
+  bottom: 50px;
+  opacity: 0.5;
+  font-family: FjallaOne;
+  transition: 1s;
+}
+
+.number:hover {
+  opacity: 1;
+}
+
+.year-two {
+  color: rgb(0, 0, 0);
+  margin-left: 150px;
+  padding-top: 150px;
+  font-size: 25px;
+  margin-bottom: 100px;
+  font-family: WorkSans;
+}
+
+.title-two {
+  color: rgb(0, 0, 0);
+  margin-left: 150px;
+  font-size: 70px;
+  margin-bottom: 100px;
+  font-family: Didact;
+}
+
+.info-two {
+  color: rgb(0, 0, 0);
+  margin-left: 150px;
+  font-size: 25px;
+  margin-bottom: 100px;
+  font-family: WorkSans;
+}
+
+.btn-two {
+  color: rgb(0, 0, 0);
+  margin-left: 150px;
+  text-decoration: none;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  font-family: FjallaOne;
+  transition: 0.5s;
+}
+
+.number-two {
+  position: absolute;
+  color: #000000;
+  font-size: 200px;
+  right: 80px;
+  bottom: 50px;
+  opacity: 0.5;
+  font-family: FjallaOne;
+  transition: 1s;
+}
+
+.number-two:hover {
+  opacity: 1;
+}
+
+.blackbg h3 {
+  font-size: 100px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 75px;
+  font-family: WorkSans;
+  padding-top: 17vh;
+}
+
+.blackbg p {
+  font-size: 25px;
+  color: #666;
+  font-family: WorkSans;
+  width: 50vw;
+  margin-left: 50vw;
+  margin-top: 15vh;
+}
+
+.blackbg h4 {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: WorkSans;
+  margin-left: 50vw;
+  margin-top: 5vh;
+}
+
+.whitebg {
+  background-color: #ffffff;
+  height: 800px;
+  width: 100vw;
+}
+
+h5 {
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: 75px;
+  margin-top: 250px;
+}
+
+h6 {
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: 75px;
+}

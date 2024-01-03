@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/static/Raleway-Regular.ttf);
+}
+
+header {
+  background-image: url(../img/1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: white;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.navbar a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-right: 15px;
+}
+
+.navbar div p {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.firstpage {
+  margin-top: 42vh;
+  color: white;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+}
+
+.btnpurple {
+  text-decoration: none;
+  color: white;
+  background-color: #745cf9;
+  border: 2px solid #745cf9;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  margin-right: 25px;
+}
+.btnwhite {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+}
+.firstpage h1 {
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.firstpage p {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.seo {
+  display: flex;
+  padding: 90px 180px;
+}
+
+.portfolio {
+  display: flex;
+  padding: 90px 180px;
+  background-color: #f5f5f5;
+  flex-direction: row-reverse;
+}
