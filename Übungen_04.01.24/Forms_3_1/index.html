@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmeldeformular</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sign Up Now!</h1>
+      <p>Sign up and tell us what you think of the site!</p>
+    </header>
+    <main>
+      <section>
+        <div class="title">First Name & Adress</div>
+        <article class="bgbox">
+          <div class="content">
+            <label id="name" for="name">Your Full Name</label><br />
+            <input id="name" type="text" name="name" required /><br />
+            <label id="name" for="name">Adress</label><br />
+            <input id="adress" type="text" name="adress" required />
+          </div>
+        </article>
+      </section>
+      <section>
+        <div class="title">Email & Phone</div>
+        <article class="bgbox">
+          <div class="content">
+            <label id="email" for="email">Email Adress</label><br />
+            <input id="email" type="email" name="email" required /><br />
+            <label id="phone" for="phone">Phone Number</label><br />
+            <input id="phone" type="number" name="phone" required />
+          </div>
+        </article>
+      </section>
+      <section>
+        <div class="title">Password</div>
+        <article class="bgbox">
+          <div class="content">
+            <label id="password" for="password">Password</label><br />
+            <input
+              id="password"
+              type="password"
+              name="password"
+              required
+            /><br />
+            <label id="conpassword" for="password">Confirm Password</label
+            ><br />
+            <input id="password" type="password" name="password" required />
+          </div>
+        </article>
+        <div class="policy">
+          <label id="checkbox" for="checkbox">Terms and Policy.</label>
+          <input id="checkbox" type="checkbox" />
+          <input id="btn" type="submit" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

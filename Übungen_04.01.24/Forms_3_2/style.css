@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body section {
+  height: 500px;
+  width: 400px;
+  background-color: #092631;
+  margin-left: 35vw;
+  margin-top: 10vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+#email {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+#password {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.signup {
+  background-color: cadetblue;
+  padding: 10px 50px;
+}
+.login {
+  background-color: #092631;
+  padding: 10px 50px;
+}
+.btn {
+  background-color: cadetblue;
+  padding: 10px 118px;
+}
+
+p {
+  color: cadetblue;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding-left: 12vw;
+}

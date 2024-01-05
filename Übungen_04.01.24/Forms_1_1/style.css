@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 5px 5px;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+#btn {
+  background-color: lightseagreen;
+}
+
+form label::after {
+  content: " *";
+  color: red;
+}
+form label {
+  font-weight: 800;
+}
+
+#fname {
+  width: 195px;
+  height: 40px;
+  border: 1px solid gray;
+}
+#lname {
+  width: 195px;
+  height: 40px;
+  border: 1px solid gray;
+}
+#email {
+  width: 400px;
+  height: 40px;
+  border: 1px solid gray;
+}
+#textarea {
+  width: 400px;
+  height: 40px;
+  border: 1px solid gray;
+}
+#topic {
+  width: 400px;
+  height: 40px;
+}
+#btn {
+  width: 400px;
+  height: 40px;
+  border: none;
+}

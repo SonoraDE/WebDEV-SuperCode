@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 25vw;
+  height: 8vh;
+  background-color: rgb(26, 135, 224);
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
+
+main {
+  background-color: rgb(213, 213, 213);
+  height: 60vh;
+  width: 25vw;
+  margin-left: 100px;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.title {
+  color: rgb(26, 135, 224);
+  padding-top: 10px;
+  font-weight: 600;
+  padding-left: 35px;
+  font-size: 14px;
+}
+
+.title::before {
+  content: "» ";
+}
+.title::after {
+  content: " ↓";
+}
+
+.bgbox {
+  background-color: rgb(179, 179, 179);
+  border-radius: 10px;
+  height: 12vh;
+  width: 20vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+p {
+  margin-left: 15px;
+  padding-top: 1px;
+}
+
+label {
+  color: white;
+}
+
+.content {
+  margin: auto;
+  padding-top: 10px;
+}
+
+input {
+  margin-bottom: 5px;
+  width: 15vw;
+}
+
+#btn {
+  background-color: rgb(26, 135, 224);
+  color: white;
+  border: none;
+  text-align: center;
+  width: 10vw;
+  margin: auto;
+  height: 3vh;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.policy {
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+#checkbox {
+  color: black;
+}
