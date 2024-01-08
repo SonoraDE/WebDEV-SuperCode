@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+section:hover p {
+  animation: discover 1s forwards;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  line-height: 300px;
+}
+
+@keyframes discover {
+  0% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}

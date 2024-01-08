@@ -1,0 +1,22 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: brown;
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+}
+
+section:hover {
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  height: 100px;
+  width: 100px;
+}
