@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="box">
+        <h1 class="title">GitHub Cheatsheet</h1>
+        <h2 class="content">
+          Du wolltest schon immer alles über GitHub wissen?
+        </h2>
+        <hr />
+        <section class="first">
+          <div class="box-style">
+            <h2 class="title">Repositories anlegen</h2>
+            <p class="content-title">
+              Ein neues Repository anlegen, oder eines von einer bestehenden URL
+              herunterladen
+            </p>
+            <p class="special">$ git init [project-name]</p>
+            <p class="content">
+              Legt ein neues lokales Repository mit dem angegebenen Namen an
+            </p>
+            <p class="special">$ git clone [url]</p>
+            <p class="content">
+              Klont ein Projekt und lädt seine gesamte Versionshistorie herunter
+            </p>
+          </div>
+        </section>
+        <section class="second">
+          <div class="box-style">
+            <h2 class="title">Änderungen vornehmen</h2>
+            <p class="content-title">
+              Änderungen überprüfen und eine Commit-Transaktion anfertigen
+            </p>
+            <p class="special">$ git status</p>
+            <p class="content">
+              Listet alle zum Commit bereiten neuen oder geänderten Dateien auf
+            </p>
+            <p class="special">$ git diff</p>
+            <p class="content">
+              Zeigt noch nicht indizierte Dateiänderungen an
+            </p>
+            <p class="special">$ git add [file]</p>
+            <p class="content">
+              Indiziert den derzeitigen Stand der Datei für die Versionierung
+            </p>
+            <p class="special">$ git diff --staged</p>
+            <p class="content">
+              Zeigt die Unterschiede zwischen dem Index (“staging area”) und der
+              aktuellen Dateiversion
+            </p>
+            <p class="special">$ git reset [file]</p>
+            <p class="content">
+              Nimmt die Datei vom Index, erhält jedoch ihren Inhalt
+            </p>
+            <p class="special">$ git commit -m"[descriptive message]"</p>
+            <p class="content">
+              Nimmt alle derzeit indizierten Dateien permanent in die
+              Versionshistorie auf
+            </p>
+          </div>
+        </section>
+        <section class="third">
+          <div class="box-style">
+            <h2 class="title">Änderungen gruppieren</h2>
+            <p class="content-title">
+              Benennen von Commit-Serien und Zusammenfassen erledigter Tasks
+            </p>
+            <p class="special">$ git branch</p>
+            <p class="content">
+              Listet alle lokalen Branches im aktuellen Repository auf
+            </p>
+            <p class="special">$ git branch [branch-name]</p>
+            <p class="content">Erzeugt einen neuen Branch</p>
+            <p class="special">$ git switch -c [branch-name]</p>
+            <p class="content">
+              Wechselt auf den angegebenen Branch und aktualisiert das
+              Arbeitsverzeichnis
+            </p>
+            <p class="special">$ git merge [branch-name]</p>
+            <p class="content">
+              Fasst die Historie des angegeben Branches mit der des aktuell
+              ausgecheckten Branches zusammen
+            </p>
+            <p class="special">$ git branch -d [branch-name]</p>
+            <p class="content">Löscht den angegebenen Branch</p>
+          </div>
+        </section>
+        <section class="fourth">
+          <div class="box-style">
+            <h2 class="title">Historie überprüfen</h2>
+            <p class="content-title">
+              Durchsuchen und Inspizieren der Entwicklung von Projektdateien
+            </p>
+            <p class="special">$ git log</p>
+            <p class="content">
+              Listet die Versionshistorie für den aktuellen Branch auf
+            </p>
+            <p class="special">$ git log --follow [file]</p>
+            <p class="content">
+              Listet die Versionshistorie für die aktuelle Datei auf, inklusive
+              Umbenennungen
+            </p>
+            <p class="special">$ git diff [first-branch]...[second-branch]</p>
+            <p class="content">
+              Zeigt die inhaltlichen Unterschiede zwischen zwei Branches
+            </p>
+            <p class="special">$ git show [commit]</p>
+            <p class="content">
+              Gibt die Änderungen an Inhalt und Metadaten durch den angegebenen
+              Commit aus
+            </p>
+          </div>
+        </section>
+        <section class="fifth">
+          <div class="box-style">
+            <h2 class="title">Änderungen synchronisieren</h2>
+            <p class="content-title">
+              Registrieren eines externen Repositories (URL) und Tauschen der
+              Repository-Historie
+            </p>
+            <p class="special">$ git fetch [remote]</p>
+            <p class="content">
+              Lädt die gesamte Historie eines externen Repositories herunter
+            </p>
+            <p class="special">$ git merge [remote]/[branch]</p>
+            <p class="content">
+              Integriert den externen Branch in den aktuell lokal ausgecheckten
+              Branch
+            </p>
+            <p class="special">$ git push [remote] [branch]</p>
+            <p class="content">
+              Pusht alle Commits auf dem lokalen Branch zu GitHub
+            </p>
+            <p class="special">$ git pull</p>
+            <p class="content">
+              Pullt die Historie vom externen Repository und integriert die
+              Änderungen
+            </p>
+          </div>
+        </section>
+        <section class="sixth">
+          <div class="box-style">
+            <h2 class="title">Commits wiederholen</h2>
+            <p class="content-title">
+              Fehler beseitigen und die Historie bereinigen
+            </p>
+            <p class="special">$ git reset [commit]</p>
+            <p class="content">
+              Macht alle Commits nach [commit] rückgängig, erhält die Änderungen
+              aber lokal
+            </p>
+            <p class="special">$ git reset --hard [commit]</p>
+            <p class="content">
+              Verwirft die Historie und Änderungen seit dem angegebenen Commit
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

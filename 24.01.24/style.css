@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Inter;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-Regular.ttf);
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.content {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1vh;
+  margin-bottom: 15px;
+}
+
+.content::before {
+  content: "⮬";
+}
+
+.content::after {
+  content: "⮭";
+}
+
+.content-title {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1vh;
+  margin-bottom: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.special {
+  color: white;
+  text-shadow: 0px 0px 10px white;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  background-color: rgba(194, 194, 194, 0.4);
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  font-weight: 800;
+  transition: 1s;
+}
+
+.special:hover {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 50px;
+}
+
+main {
+  height: 100vh;
+}
+
+.box {
+  background-color: darkcyan;
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.box-style {
+  background-color: rgb(0, 105, 105);
+  width: 50vw;
+  margin: auto;
+  border-radius: 30px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+hr {
+  width: 50vw;
+  margin: auto;
+  margin-top: 3vh;
+}
+
+.first {
+  margin-top: 3vh;
+}
+
+.second {
+  margin-top: 3vh;
+}
+
+.third {
+  margin-top: 3vh;
+}
+
+.fourth {
+  margin-top: 3vh;
+}
+
+.fifth {
+  margin-top: 3vh;
+}
+
+.sixth {
+  margin-top: 3vh;
+}
+
+nav {
+  width: 100vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: white;
+  height: 50px;
+}
+
+nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 50px;
+}
