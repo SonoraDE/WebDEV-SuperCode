@@ -31,6 +31,10 @@ console.log("score: ", score);
 // ! Modulo -> Restwert ! //
 console.log(6 % 3);
 
+// - ==== INCREMENT ==== - //
+// * variable ++ -> rechnet variable +1
+// - ==== DECREMENT ==== - //
+// * variable -- -> rechnet variable -1
 
 // - ==== OUTPUT ==== - //
 // ! document.write() ! //
@@ -41,11 +45,20 @@ document.write("<h2 class='test'> Test H2 </h2>");
 
 // ! window.alert() ! //
 //*Sendet eine Alert beim aktualisieren der Seite
-window.alert("Glückwunsch! Sie haben 1.000.000€ gewonnen !!!");
+//window.alert("Glückwunsch! Sie haben 1.000.000€ gewonnen !!!");
 
 
 // - ==== INPUT ==== - //
 // ! window.promt() ! //
 //* Damit öffnet sich ein Popup, in dem der Nutzer etwas eingeben kann
-window.prompt("Bitte gebe eine Zahl ein!", "Placeholder");
+//window.prompt("Bitte gebe eine Zahl ein!", "Placeholder");
+
+//* userAntwort speichert jetzt den Inhalt der eingegeben wurde (Variable)
+let userAnswer = window.prompt("Wie alt bist du?");
+console.log("Der Nutzer ist:", userAnswer);
+
+// ! window.confirm() ! //
+//* So kann ich was aktzeptieren oder ablehnen
+//window.confirm("Stimmen Sie den Cookies dieser Seite zu?");
+let acceptCookies = window.confirm("Stimmen Sie den Cookies dieser Seite zu?");
 
