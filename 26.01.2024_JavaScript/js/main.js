@@ -138,4 +138,33 @@ divContainer.style.backgroundColor = "yellow";
 const h2 = document.querySelector("div h2");
 console.log(h2);
 
+// - ======= Funktionen =======
+// ! Deklarieren
+// Name der Funktion -> Muss Sinn ergeben, frei definierbar, camelCase
+// Was soll die Funktion machen?
+// Klammern hinter dem Namen nicht vergessen ()
 
+function sayHi() {
+    console.log("Hallo Lisa, schön das du da bist!");
+}
+
+// ! Funktion aufrufen
+sayHi();
+
+// ! Funktionen mit Parameter
+// Mit Parametern können wir unsere Funktionen wiederverwendbarer machen
+function welcomeMessage(name) {
+    console.log("Hallo " + name);
+}
+
+welcomeMessage("Tobi");
+welcomeMessage("Mia");
+welcomeMessage("Izel");
+
+//! Mehrere Parameter
+function addMe(num1, num2){
+    console.log(num1 + num2);
+}
+
+addMe(20, 30);
+addMe("Susi", "Sabine");
