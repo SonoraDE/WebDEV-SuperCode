@@ -119,10 +119,23 @@ mainHeadline.innerHTML = "ZACK - einfach so über JS geändert.";
 secondaryHeadline.innerHTML = "Super";
 secondaryHeadline.innerHTML += "Code";
 
+
+// - ======= .style =======
 //* mit .style können wir das Element stylen
 // Schriftfarbe ändern
 mainHeadline.style.color = "red";
 // Hintergrund Farbe ändern
 mainHeadline.style.backgroundColor = "blue";
+mainHeadline.style.fontSize = "30px";
+
+//* In Elemente schreiben
+const divContainer = document.querySelector(".div-container");
+divContainer.innerHTML = "<h2 class='supi'> Hallo ich komme über JS </h2>";
+
+divContainer.style.backgroundColor = "yellow";
+
+// Div Box Styling
+const h2 = document.querySelector("div h2");
+console.log(h2);
 
 
