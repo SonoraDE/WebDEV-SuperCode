@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form onsubmit="getInputValue(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="age">Alter:</label>
+        <input type="number" id="age" />
+        <br />
+        <label for="age">Range:</label>
+        <input type="range" id="range" min="0" max="100" />
+        <br />
+        <label for="checkbox">Happy?</label>
+        <input type="checkbox" id="check" />
+        <br />
+        <label for="bday">Geburtstag:</label>
+        <input type="date" id="bday" />
+        <br />
+        <input type="submit" />
+      </form>
+
+      <h2 class="output-form"></h2>
+    </main>
+
+    <footer>
+      <h1 class="wrapper" onclick="darkLight()">Dark/Light Modus</h1>
+      <h2 class="add" onclick="addClass()">Add a Class</h2>
+      <h3 class="remove super-crazy" onclick="removeClass()">Remove a Class</h3>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
