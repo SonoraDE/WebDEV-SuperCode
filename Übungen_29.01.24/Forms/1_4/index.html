@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Background-Generator</h1>
+      <br />
+      <label for="first">Red</label>
+      <br />
+      <input
+        onchange="changeBackground()"
+        id="red"
+        type="range"
+        name="first"
+        min="0"
+        max="255"
+        value="0"
+        step="1"
+      />
+      <br />
+      <label for="first">Green</label>
+      <br />
+      <input
+        onchange="changeBackground()"
+        id="green"
+        type="range"
+        name="second"
+        min="0"
+        max="255"
+        value="0"
+        step="1"
+      />
+      <br />
+      <label for="first">Blue</label>
+      <br />
+      <input
+        onchange="changeBackground()"
+        id="blue"
+        type="range"
+        name="third"
+        min="0"
+        max="255"
+        value="0"
+        step="1"
+      />
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

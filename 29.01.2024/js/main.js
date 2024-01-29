@@ -51,7 +51,7 @@ event.preventDefault(); //Verhindert das die Seite neu geladen wird
     const tobiName = document.querySelector("#name").value;
 
     //age
-    const tobiAge= document.querySelector("#age").value;
+    const tobiAge = document.querySelector("#age").value;
 
     //range
     const tobiRange= document.querySelector("#range").value;
