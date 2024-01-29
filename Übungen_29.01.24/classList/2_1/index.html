@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1 class="headline">Meine Bucket List</h1>
-    <div class="items">
-      <ul>
-        <li>Gesundheit</li>
-        <li>Erfolg</li>
-        <li>Urlaub</li>
-      </ul>
-    </div>
-    <button onclick="styleElements()" id="style">Headline stylen</button>
-    <button onclick="styleElements()" id="reset">Headline zurücksetzen</button>
+    <main>
+      <h1 id="bucket">Meine Bucket List</h1>
+      <div id="list">
+        <ul>
+          <li>Urlaub</li>
+          <li>Gesundheit</li>
+          <li>Erfolg</li>
+        </ul>
+      </div>
+      <button onclick="styleElements()">Stylen</button>
+      <button onclick="resetElements()">Zurücksetzen</button>
+    </main>
     <script src="./main.js"></script>
   </body>
 </html>
