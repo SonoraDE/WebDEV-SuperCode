@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main style="text-align: center">
+      <form>
+        <label id="airquality" for="luft">Luftqualität: </label>
+        <br />
+        <input
+          style="display: block; width: 300px; margin: auto"
+          id="airvalue"
+          type="range"
+          min="0"
+          max="150"
+          step="1"
+          value="0"
+          name="luft"
+          onchange="checkAirQuality()"
+        />
+      </form>
+      <p style="font-weight: 800">
+        Level of health concern: <span id="level-one"></span>
+      </p>
+      <p style="font-weight: 800">
+        Level of health effect: <span id="level-two"></span>
+      </p>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
