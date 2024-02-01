@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Welche Nachricht möchtest du weitergeben?</h1>
+      <form>
+        <input type="text" name="eingabe" id="input" />
+        <br />
+        <input
+          type="button"
+          name="button"
+          id="btn"
+          value="Senden"
+          onclick="sendMessage()"
+        />
+      </form>
+      <h2 id="lastMessage">Letzte Nachricht:</h2>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

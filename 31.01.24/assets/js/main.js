@@ -96,6 +96,7 @@ function login() {
     if(falseLogin < 5) {
         if(inputEmail === fakeDbUser && inputPassword === fakeDbPassword){
             console.log("Erfolgreich eingeloggt.");
+            falseLogin = 1;
         } else {
             console.log("Sie haben noch " + (5 - falseLogin) + "Versuche");
             ++falseLogin;
