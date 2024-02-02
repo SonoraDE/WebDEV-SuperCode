@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Zeichen ketten trennungs Maschine</h1>
+      <br />
+      <p>Zu trennende Zeichenkette:</p>
+      <!-- Hier kommt ein Satz meiner Wahl rein (Soll gesliced werden) -->
+      <br />
+      <input type="text" name="text1" id="input-one" />
+      <br />
+      <br />
+      <p>Trennen bei Zeichenkette:</p>
+      <!-- Ausgabe wird in zwei teile geteilt, Vorderer und Hinterer Teil. -->
+      <br />
+      <input type="text" name="text2" id="input-two" />
+      <br />
+      <br />
+      <input type="radio" name="radio" id="radio" value="1" checked />
+      <label for="radio">davor trennen</label>
+      <input type="radio" name="radio" id="radio2" value="2" />
+      <label for="radio2">danach trennen</label>
+      <br />
+      <input
+        id="button"
+        type="button"
+        value="Hier Klicken"
+        onclick="checkInput()"
+      />
+      <br />
+      <br />
+      <h2 class="title">Ausgabe</h2>
+      <h3 class="title-two">Vorderer Teil</h3>
+      <p id="ausgabe-one">Test Ausgabe</p>
+      <br />
+      <h3 class="title-two">Hinterer Teil</h3>
+      <p id="ausgabe-two">Test Ausgabe</p>
+      <script src="./main.js"></script>
+    </div>
+  </body>
+</html>
