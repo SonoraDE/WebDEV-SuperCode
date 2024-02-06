@@ -8,70 +8,48 @@
   </head>
   <body>
     <main>
-      <h1>Mehrwertsteuer-Rechner</h1>
-      <section>
-        <form onsubmit="taxCalculator(event)">
-          <div class="greybox">
-            <h3>Was soll berechnet werden?</h3>
-            <div>
-              <input
-                onchange="change()"
-                type="radio"
-                name="brutto-netto"
-                id="netto"
-                value="netto-to-brutto"
-                checked
-              />
-              <label for="netto"
-                >Mehrwertsteuer aufschlagen (Netto zu Brutto)</label
-              >
-            </div>
-            <div>
-              <input
-                onchange="change()"
-                type="radio"
-                name="brutto-netto"
-                value="brutto-to-netto"
-                id="brutto"
-              />
-              <label for="brutto"
-                >Mehrwertsteuer abschlagen (Brutto zu Netto)</label
-              >
-            </div>
-          </div>
-          <div class="greybox">
-            <h3>Mehrwertsteuersatz</h3>
-            <div>
-              <input type="radio" name="percent" value="nineteen" checked />
-              <label for="nineteen">19%</label>
-            </div>
-            <div>
-              <input type="radio" name="percent" value="seven" />
-              <label for="seven">7%</label>
-            </div>
-          </div>
-          <div class="greybox">
-            <label for="betrag">
-              Nettobetrag (Preis ohne Mehrwertsteuer) in Euro
-              <span>*</span></label
-            >
-
-            <input type="number" name="" id="betrag" />
-            <h6 class="error"></h6>
-          </div>
-          <input type="submit" value="Berechnen" />
-        </form>
-        <div class="line"></div>
-        <h2>Ergebnis</h2>
-        <div class="greybox">
-          <h3>Mehrwertsteuerbetrag</h3>
-          <h5 class="mwst-betrag"></h5>
+      <div class="content-box">
+        <div class="content-one">
+          <h2>Was soll berechnet werden?</h2>
+          <input type="radio" name="mwst-radio" id="radio1" value="1" checked />
+          <label for="radio1"
+            >Mehrwertsteuer aufschlagen (Netto zu Brutto)</label
+          >
+          <br />
+          <input type="radio" name="mwst-radio" id="radio2" value="2" />
+          <label for="radio2">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
         </div>
-        <div class="greybox">
-          <h3 class="endbetrag">Bruttobetrag (Endpreis)</h3>
-          <h5 class="end-betrag"></h5>
+        <div class="content-two">
+          <h2>Was soll berechnet werden?</h2>
+          <input
+            type="radio"
+            name="prozent-radio"
+            id="radio3"
+            value="1"
+            checked
+          />
+          <label for="radio3">19%</label>
+          <br />
+          <input type="radio" name="prozent-radio" id="radio4" value="2" />
+          <label for="radio4">7%</label>
         </div>
-      </section>
+        <div class="content-three">
+          <p>Nettobetrag (Preis ohne Mehrwertsteuer) in Euro *</p>
+          <br />
+          <input type="number" name="input" id="input" />
+        </div>
+        <div class="content-button">
+          <input type="button" value="Berechnen" id="btn" onclick="getTax()" />
+        </div>
+        <div class="content-five">
+          <h4>Mehrwertsteuerbetrag</h4>
+          <p id="mwst-betrag">€</p>
+        </div>
+        <div class="content-six">
+          <h4>Bruttobetrag (Endpreis)</h4>
+          <p id="result-value">€</p>
+        </div>
+      </div>
     </main>
     <script src="./main.js"></script>
   </body>
