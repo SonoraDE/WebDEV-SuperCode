@@ -26,6 +26,5 @@ function getTax() {
         resultValue = inputValue - taxValue;
     }
     document.querySelector("#mwst-betrag").innerHTML = taxValue.toFixed(2);
-    document.querySelector("#result-value").innerHTML = resultValue.toFixed(2);
-    
+    document.querySelector("#result-value").innerHTML = resultValue.toFixed(2); 
 }
