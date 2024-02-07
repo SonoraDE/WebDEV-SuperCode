@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>Kalorienrechner</div>
+      <div class="size-container">
+        <label for="bodysize">Körpergröße</label>
+        <input type="text" name="groesse" id="bodysize" />
+      </div>
+      <div class="age-container">
+        <label for="age">Alter</label>
+        <input type="text" name="alter" id="age" />
+      </div>
+      <div class="weight-container">
+        <label for="weight">Gewicht</label>
+        <input type="text" name="gewicht" id="weight" />
+      </div>
+      <div class="radio-container">
+        <input type="radio" name="geschlecht" id="radio1" value="1" checked />
+        <label for="geschlecht">Weiblich</label>
+        <input type="radio" name="geschlecht" id="radio2" value="2" />
+        <label for="geschlecht">Männlich</label>
+      </div>
+      <div class="dropdown-container">
+        <select name="belastung" id="belastung">
+          <option value="0.95">Schlafen</option>
+          <option value="1.2">Nur Sitzen oder Liegen</option>
+          <option value="1.5">
+            Ausschließlich sitzende Tätigkeit mit wenig oder keiner körperlichen
+            Aktivität in der Freizeit, z.B. Büroarbeit
+          </option>
+          <option value="1.7">
+            Sitzende Tätigkeit mit zweiweilig gehender oder stehender Tätigkeit,
+            z.B. Studierende, Fließbandarbeiter, Laboranten, Kraftfahrer
+          </option>
+          <option value="1.9">
+            Überwiegend gehende oder stehende Tätigkeit, z.B. Verkäufer,
+            Kellner, Handwerker, Mechaniker, Hausfrauen
+          </option>
+          <option value="2.2">Körperlich anstrengende berufliche Arbeit</option>
+        </select>
+      </div>
+      <div class="button-container">
+        <input type="button" value="Submit" onclick="getResult()" />
+      </div>
+      <div class="calculate-container">
+        <div class="container-one">
+          <p></p>
+          <p>kcal</p>
+          <p>kJ</p>
+        </div>
+        <div class="container-two">
+          <p>Grundumsatz</p>
+          <p id="umsatz-kcal">test</p>
+          <p id="umsatz-kj">test</p>
+        </div>
+        <div class="container-three">
+          <p>Gesamtumsatz</p>
+          <p id="gumsatz-kcal">test</p>
+          <p id="gumsatz-kj">test</p>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
