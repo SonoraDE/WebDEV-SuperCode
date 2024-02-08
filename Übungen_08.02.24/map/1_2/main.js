@@ -1,0 +1,35 @@
+let filmTitel = [
+    "Inception",
+    "The Shawshank Redemption",
+    "Pulp Fiction",
+    "The Dark Knight",
+    "Forrest Gump",
+    "The Matrix",
+    "The Godfather",
+    "Schindler's List",
+    "Fight Club",
+    "The Lord of the Rings: The Fellowship of the Ring",
+    "The Silence of the Lambs",
+    "Star Wars: Episode IV - A New Hope",
+    "The Avengers",
+    "Titanic",
+    "The Lion King",
+    "Jurassic Park",
+    "Gladiator",
+    "The Departed",
+    "Casablanca",
+    "The Wizard of Oz",
+    "Gone with the Wind",
+    "The Shining",
+    "Avatar",
+    "Eternal Sunshine of the Spotless Mind",
+    "Inglourious Basterds",
+    "The Grand Budapest Hotel",
+    "The Revenant",
+    "The Social Network",
+    "Interstellar",
+  ];
+
+
+    console.table(filmTitel);
+    console.table(filmTitel.map((upperDrinks) => upperDrinks.toUpperCase()));
