@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies for You!</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="top">
+        <div>
+          <h1 class="page-title">Movies for You</h1>
+          <h2 class="page-slogan">The best MovieDB</h2>
+        </div>
+        <div class="search-btns">
+          <form>
+            <div class="content-one">
+              <input type="text" name="search" id="search-bar" />
+              <input type="button" value="SEARCH" onclick="searchBar()" />
+            </div>
+            <div class="content-two">
+              <input
+                type="button"
+                value="ALL MOVIES"
+                onclick="showAllMovies()"
+              />
+              <input type="button" value="YEAR UP" onclick="yearUp()" />
+              <input type="button" value="YEAR DOWN" onclick="yearDown()" />
+              <input type="button" value="BEST RATE" onclick="rating()" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <h1 class="error">Dieser Film existiert nicht. Passe deine Suche an!</h1>
+      <section class="flex-box">
+        <div class="grid-box" id="movies">
+          <div class="movie-card">
+            <h3 class="title">The Shawshank Redemption</h3>
+            <p class="release">1994</p>
+            <p class="producer">Frank Darabont</p>
+            <p class="movie-length">2h 22min</p>
+            <p class="genre">Crime, Drama</p>
+            <p class="rating">9.3</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

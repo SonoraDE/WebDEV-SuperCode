@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Inter;
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./Inter-Regular.ttf);
+}
+
+:root {
+  --main: #ff003d;
+  --secondary: #141414;
+  --bg: #272727;
+}
+
+main {
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
+.top {
+  text-align: center;
+}
+
+.page-title {
+  color: var(--main);
+  margin-bottom: 1vh;
+  font-size: 3rem;
+  padding-top: 3vh;
+}
+
+.page-slogan {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 4vh;
+}
+
+.content-one {
+  margin-bottom: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-one input {
+  margin-right: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="button"] {
+  color: white;
+  background-color: var(--main);
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px var(--secondary);
+  cursor: pointer;
+  width: 8vw;
+}
+
+.content-two {
+  margin-bottom: 5vh;
+  background-color: var(--secondary);
+  padding: 1vw 1vw 1vw 1vw;
+  border-radius: 2rem;
+  width: 45vw;
+  margin: auto;
+}
+
+input[type="text"] {
+  color: white;
+  background-color: var(--secondary);
+  border: none;
+  border-left: solid 3px var(--main);
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  box-shadow: 0px 0px 10px var(--secondary);
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2vw;
+  background-color: var(--secondary);
+  padding: 3vw 3vw 3vw 3vw;
+  border-radius: 2rem;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.movie-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 13vw;
+  background-color: var(--main);
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0px 0px 10px var(--bg);
+  padding-top: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.title {
+  margin-bottom: 1vh;
+  font-size: 2rem;
+}
+.release {
+  margin-bottom: 1vh;
+  font-size: 1.5rem;
+}
+.producer {
+  margin-bottom: 1vh;
+  font-size: 2rem;
+}
+.movie-length {
+  margin-bottom: 1vh;
+  font-size: 1.5rem;
+}
+.genre {
+  margin-bottom: 1vh;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.rating {
+  margin-bottom: 1vh;
+  font-size: 1.5rem;
+}
+
+.error {
+  visibility: hidden;
+  color: var(--main);
+  font-size: 4rem;
+  text-align: center;
+}
