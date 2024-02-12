@@ -14,7 +14,6 @@ function playRound(playerChoice) {
     spielerAuswahl = playerChoice;
     computerPlay();
     if (spielerAuswahl === cpuAuswahl) {
-        console.log("Unentschieden");
     } else if (
         (spielerAuswahl === "Schere" && cpuAuswahl === "Papier") ||
         (spielerAuswahl === "Stein" && cpuAuswahl === "Schere") ||
