@@ -1055,7 +1055,7 @@ const yearDown = () => {
 
 const rating = () => {
     filteredMovies.sort(function (movie1, movie2) {
-        return movie1[5] - movie2[5];
+        return movie2[5] - movie1[5];
       });
     showAll();
 }

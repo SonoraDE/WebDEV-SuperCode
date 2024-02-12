@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Pixel;
+  src: url(./pixelmix.ttf);
+}
+
+html {
+  font-family: Pixel;
+  font-size: 62.5%;
+}
+
+main {
+  min-height: 100vh;
+  background-color: violet;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 3vh;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 8vh;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+input[type="button"] {
+  text-align: center;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  width: 10vw;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 800;
+  border: none;
+  border-radius: 2rem;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  transition: all 1s ease-in-out;
+}
+
+.img1:hover {
+  transform: rotate(45deg);
+  transition: all 0.5s;
+}
+
+.img2:hover {
+  transform: rotate(-45deg);
+  transition: all 0.5s;
+}
+
+.img3:hover {
+  transform: rotate(45deg);
+  transition: all 0.5s ease-in-out;
+}
+
+img {
+  width: 300px;
+}
+
+#btn:hover {
+  box-shadow: 0px 0px 10px white;
+  transition: all 1s ease-in-out;
+}
