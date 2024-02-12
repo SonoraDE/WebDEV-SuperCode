@@ -1,39 +1,37 @@
-// Variablen für Spieler- und Computerauswahl
-let spielerAuswahl;
-let cpuAuswahl;
+//! Variablen für Spieler und CPU Auswahl --------------
+let playerChoose;
+let computerChoose;
 
-// Funktion zur Generierung der Computerauswahl
-function computerPlay() {
-    const auswahl = ["Schere", "Stein", "Papier"];
-    const randomAuswahl = auswahl[Math.floor(Math.random() * auswahl.length)];
-    cpuAuswahl = randomAuswahl;
-}
+//! CPU Funktion für random Auswahl --------------
+const cpuPlay = (chooseWeapon) => {
+    const chooseOptions = ["Stein", "Schere", "Papier"];
+    const randomChoose = chooseOptions [Math.floor(Math.random() * chooseOptions.length)];
+    computerChoose = randomChoose;
+    document.querySelector("#cpuselect").innerHTML = `CPU Auswahl : ${randomChoose}`;
 
-// Funktion zur Auswertung des Spiels
-function playRound(playerChoice) {
-    spielerAuswahl = playerChoice;
-    computerPlay();
-    if (spielerAuswahl === cpuAuswahl) {
-        console.log("Unentschieden");
-    } else if (
-        (spielerAuswahl === "Schere" && cpuAuswahl === "Papier") ||
-        (spielerAuswahl === "Stein" && cpuAuswahl === "Schere") ||
-        (spielerAuswahl === "Papier" && cpuAuswahl === "Stein")
-    ) {
-        console.log("Du gewinnst! " + spielerAuswahl + " besiegt " + cpuAuswahl);
-        document.querySelector("#playerselect").innerHTML = "You choose : " + spielerAuswahl;
-        document.querySelector("#cpuselect").innerHTML = "CPU choose : " + cpuAuswahl;
-        document.querySelector("#result").innerHTML = "Du gewinnst! " + spielerAuswahl + " besiegt " + cpuAuswahl;
+//! Ausgabe von CPU Auswahl zum checken ob random klappt --------------
+    console.log(randomChoose);
+
+//! Auswahl des Spielers --------------
+document.querySelector("#playerselect").innerHTML = `Spieler Auswahl : ${chooseWeapon}`;
+
+if(chooseWeapon === "Papier" && computerChoose === "Stein") {
+    document.querySelector("#result").innerHTML = `Ergebnis : <span style = "color: green; text-shadow: none"> Du gewinnst!</span>`;
+    } else if(chooseWeapon === "Schere" && computerChoose === "Papier") {
+        document.querySelector("#result").innerHTML = `Ergebnis : <span style = "color: green; text-shadow: none"> Du gewinnst!</span>`;
+    } else if(chooseWeapon === "Stein" && computerChoose === "Schere") {
+        document.querySelector("#result").innerHTML = `Ergebnis : <span style = "color: green; text-shadow: none"> Du gewinnst!</span>`;
+    } else if(chooseWeapon === computerChoose) {
+        document.querySelector("#result").innerHTML = `Ergebnis : <span style = "color: lightblue; text-shadow: none"> Unentschieden!</span>`;
     } else {
-        document.querySelector("#result").innerHTML = "Du verlierst! " + cpuAuswahl + " besiegt " + spielerAuswahl;
-    }
+        document.querySelector("#result").innerHTML = `Ergebnis : <span style = "color: red; text-shadow: none"> Du verlierst!</span>`;
+    } 
 }
 
-// Funktion zum Zurücksetzen des Spiels
-function resetGame() {
-    playerSelection = null;
-    computerSelection = null;
-    document.querySelector("#playerselect").innerHTML = "You choose : ";
-    document.querySelector("#cpuselect").innerHTML = "CPU choose : ";
-    document.querySelector("#result").innerHTML = "Result : ";
+const resetGame = () => {
+    playerChoose = null;
+    computerChoose = null;
+    document.querySelector("#playerselect").innerHTML = `Spieler Auswahl :`;
+    document.querySelector("#cpuselect").innerHTML = `CPU Auswahl :`;
+    document.querySelector("#result").innerHTML = `Ergebnis :`;
 }

@@ -9,11 +9,11 @@
   <body>
     <main>
       <div class="container">
-        <h1>Rock Paper Scissors</h1>
-        <h2>Choose your Weapon</h2>
-        <h3 id="playerselect">You choose :</h3>
-        <h3 id="cpuselect">CPU choose :</h3>
-        <h3 id="result">Result :</h3>
+        <h1>Stein - Schere - Papier</h1>
+        <h2>Was moechtest du waehlen?</h2>
+        <h3 id="playerselect">Spieler Auswahl :</h3>
+        <h3 id="cpuselect">CPU Auswahl :</h3>
+        <h3 id="result">Ergebnis :</h3>
         <div class="button-flex">
           <input
             type="button"
@@ -25,21 +25,24 @@
         <div class="images">
           <img
             class="img1"
-            src="./img/Papier.png"
-            alt="Papier"
-            onclick="playRound('Papier')"
+            src="./img/stein.png"
+            alt="Stein"
+            onclick="cpuPlay('Stein')"
+            id="stein"
           />
           <img
             class="img2"
             src="./img/Schere.png"
             alt="Schere"
-            onclick="playRound('Schere')"
+            onclick="cpuPlay('Schere')"
+            id="schere"
           />
           <img
             class="img3"
-            src="./img/stein.png"
-            alt="Stein"
-            onclick="playRound('Stein')"
+            src="./img/Papier.png"
+            alt="Papier"
+            onclick="cpuPlay('Papier')"
+            id="papier"
           />
         </div>
       </div>
