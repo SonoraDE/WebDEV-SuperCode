@@ -1,5 +1,5 @@
 let numArr = [5, 22, 15, 100, 55];
-const output = document.querySelector("output");
+const output = document.querySelector("#output");
 
 const results = [];
 
