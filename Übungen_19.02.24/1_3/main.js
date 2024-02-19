@@ -10,11 +10,16 @@ date3.setDate(22);
 date4.setDate(25);
 date5.setDate(29);
 
+const currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 30);
+const formattedDate = currentDate.toLocaleDateString();
+
+
 output.innerHTML = `
 <div>
 <p>${date}</p>
 <p>${date2}</p>
 <p>${date3}</p>
 <p>${date4}</p>
-<p>${date5}</p>
+<p>${currentDate}</p>
 </div>`
