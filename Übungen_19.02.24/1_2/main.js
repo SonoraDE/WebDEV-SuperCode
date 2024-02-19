@@ -6,7 +6,6 @@ function anzeigenUhrzeit() {
     document.getElementById("time").textContent = `${stunden}:${minuten}:${sekunden}`;
 }
 
-// Funktion zum Anzeigen des Datums
 function anzeigenDatum() {
     const time = new Date();
     const wochentag = time.toLocaleDateString('de-DE', { weekday: 'long' });
@@ -16,9 +15,7 @@ function anzeigenDatum() {
     document.getElementById("date").textContent = `${wochentag}, ${tag}. ${monat} ${jahr}`;
 }
 
-// Funktionen aufrufen, um Zeit und Datum anzuzeigen
 anzeigenUhrzeit();
 anzeigenDatum();
 
-// Uhr aktualisieren alle Sekunde
 setInterval(anzeigenUhrzeit, 1000);
