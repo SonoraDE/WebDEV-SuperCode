@@ -1,0 +1,267 @@
+* {
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+:root {
+  --bg: rgba(0, 0, 0, 0.5);
+  --main: #7dc1ff;
+}
+
+.page-one {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(../img/sunny.png);
+  min-height: 100vh;
+  padding: 2vh;
+}
+
+.page-two {
+  background-image: url(../img/special.png);
+  min-height: 105vh;
+  padding: 3vh;
+}
+
+.searchForm {
+  position: relative;
+}
+
+.fa-search {
+  color: white;
+  position: absolute;
+  right: 14vw;
+  top: 1vh;
+}
+
+.po-content-one {
+  background-color: var(--bg);
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  border-radius: 2rem;
+}
+
+.po-content-two {
+  background-color: var(--bg);
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 3vh;
+  border-radius: 2rem;
+  color: white;
+}
+
+.po-content-three {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.po-info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg);
+  width: 80vw;
+  margin: auto;
+  margin-top: 2vh;
+  border-radius: 1rem;
+  padding: 2vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.slogan {
+  font-size: 1rem;
+  color: var(--main);
+  margin-bottom: 2vh;
+  font-weight: 500;
+}
+
+#searchbar {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 2vh;
+  background-color: var(--bg);
+  border: none;
+  height: 4vh;
+  border-radius: 0.7rem;
+  width: 60vw;
+  text-align: center;
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px var(--bg);
+}
+
+.degrees {
+  font-size: 3rem;
+  margin-bottom: 1vh;
+}
+
+.weather-type {
+  font-size: 1.5rem;
+  margin-bottom: 1vh;
+}
+
+.date {
+  color: var(--main);
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 2vh;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1vh;
+  background-color: var(--bg);
+  border: none;
+  height: 4vh;
+  border-radius: 0.7rem;
+  width: 40vw;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 1rem;
+  margin-left: 3vw;
+}
+
+.info-name {
+  color: var(--main);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5vh;
+}
+
+.info-info {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.title-box {
+  background-color: var(--bg);
+  width: 80vw;
+  margin: auto;
+  margin-top: 2vh;
+  border-radius: 1rem;
+  padding: 1vh;
+  text-align: center;
+}
+
+.slogan-two {
+  font-size: 1.3rem;
+  color: var(--main);
+  margin-bottom: 2vh;
+  font-weight: 500;
+}
+
+.back {
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-arrow-left {
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  text-align: left;
+  left: 15%;
+}
+
+.weather-info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg);
+  width: 80vw;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 1vh;
+  border-radius: 1rem;
+  height: 8vh;
+}
+
+.icon-img {
+  width: 6vw;
+  text-align: center;
+}
+
+.day {
+  background-color: var(--bg);
+  padding: 1.2vh;
+  border-radius: 0.8rem;
+  color: var(--main);
+  width: 20vw;
+  text-align: center;
+}
+
+.icon {
+  background-color: var(--bg);
+  padding: 1.2vh;
+  border-radius: 0.8rem;
+  width: 15vw;
+  text-align: center;
+}
+
+.temperature {
+  color: var(--main);
+  background-color: var(--bg);
+  padding: 1.2vh;
+  border-radius: 0.8rem;
+  width: 30vw;
+  text-align: center;
+}
+
+.info-text {
+  margin-top: 3vh;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.weather-img {
+  width: 200px;
+  margin-top: -3vh;
+  margin-bottom: -4vh;
+}
+
+/* <i class="fas fa-arrow-left fontColor"></i> */
+/* <i class="fas fa-arrow-right fontColor"></i> */

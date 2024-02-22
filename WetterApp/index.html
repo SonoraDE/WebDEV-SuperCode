@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://site-assets.fontawesome.com/releases/v5.15.4/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="page-container">
+        <article class="page-one">
+          <div class="po-content-one">
+            <h1 class="title">WUPPERTAL</h1>
+            <h2 class="slogan">GOOD EVENING</h2>
+            <div class="search">
+              <form class="searchForm" onsubmit="searchWeather(event)">
+                <input type="text" name="searchbar" id="searchbar" />
+                <i onclick="searchWeather(event)" class="fas fa-search"></i>
+              </form>
+            </div>
+          </div>
+          <div class="po-content-two">
+            <img
+              id="weather-icon"
+              class="weather-img"
+              src="./assets/img/day_rain.png"
+              alt="WEATHER IMAGE"
+            />
+            <h2 class="degrees">20°C</h2>
+            <h3 class="weather-type">SUNNY</h3>
+            <h4 class="date">THURSDAY - 7.46PM</h4>
+          </div>
+          <div class="po-content-three">
+            <button onclick="showNextDays()" id="next-days" class="btn">
+              NEXT DAYS
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="po-info-box">
+            <div class="info-one">
+              <p class="info-name left">SUNRISE</p>
+              <p id="sunrise-info" class="info-info left">7:46 AM</p>
+            </div>
+            <div class="info-two">
+              <p class="info-name right">SUNSET</p>
+              <p id="sunset-info" class="info-info right">8:10 PM</p>
+            </div>
+          </div>
+          <div class="po-info-box">
+            <div class="info-one">
+              <p class="info-name left">MIN. TEMP</p>
+              <p id="mintemp-info" class="info-info left">7:46 AM</p>
+            </div>
+            <div class="info-two">
+              <p class="info-name right">MAX. TEMP</p>
+              <p id="maxtemp-info" class="info-info right">8:10 PM</p>
+            </div>
+          </div>
+          <div class="po-info-box">
+            <div class="info-one">
+              <p class="info-name left">HUMIDITY</p>
+              <p id="humidity-info" class="info-info left">7:46 AM</p>
+            </div>
+            <div class="info-two">
+              <p class="info-name right">RAIN PER QM</p>
+              <p id="rain-info" class="info-info right">8:10 PM</p>
+            </div>
+          </div>
+        </article>
+        <article class="page-two">
+          <div class="title-box">
+            <h2 class="title">
+              <i onclick="showStart()" class="fas fa-arrow-left"></i>THE WEATHER
+            </h2>
+            <h3 class="slogan-two">THIS WEEK</h3>
+          </div>
+          <section class="page-two-wrap"></section>
+          <h3 class="info-text">
+            IF YOU WANT TO SEE MORE DETAILS FOR THE WEATHER, JUST CLICK ON THE
+            DAY YOU WANT.
+          </h3>
+        </article>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/second.js"></script>
+  </body>
+</html>
