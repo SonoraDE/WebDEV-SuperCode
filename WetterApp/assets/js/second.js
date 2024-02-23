@@ -9,6 +9,7 @@ const testFunction = (changeContent) => {
             },
             "list": [
                 {
+                    "dt_txt": "2024-02-23 20:22:47",
                     "weather": [
                         {
                         "icon": "02d",
@@ -37,6 +38,7 @@ const testFunction = (changeContent) => {
             },
             "list": [
                 {
+                    "dt_txt": "2024-02-23 20:22:47",
                     "weather": [
                         {
                         "icon": "11d",
@@ -65,6 +67,7 @@ const testFunction = (changeContent) => {
             },
             "list": [
                 {
+                    "dt_txt": "2024-02-23 20:22:47",
                     "weather": [
                         {
                         "icon": "10n",

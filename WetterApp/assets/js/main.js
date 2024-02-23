@@ -126,9 +126,10 @@ const showStart = () => {
     pageTwo.style.display = "none";
 };
 
+let maxTempsByDay;
+
 //*________________________________________________________________________________________________________________________________
 const generateDetails = (list) => {  
-      //! Generiert ein neues Array, gruppiert nach Tag und generiert für jeden Tag einen neuen Array eintrag, mit dem Wetter an diesem Tag.
       const weatherByDay = list.reduce((acc, weather) => {
          const date = weather.dt_txt.split(' ')[0];
          acc[date] = acc[date] || [];
@@ -136,34 +137,47 @@ const generateDetails = (list) => {
          return acc;
        }, {});
 
-       //! Ermittelt die größte Temparatur am Tag und nimmt das erste Icon vom Wetter.
-       const maxTempsByDay = Object.keys(weatherByDay).map(day => {
-         const maxTemp = weatherByDay[day].reduce((max, weather) => Math.max(max, weather.main.temp_min), -Infinity);
-         return { day, maxTemp, icon:weatherByDay[day][0].weather[0].icon };
+      maxTempsByDay = Object.keys(weatherByDay).map(day => {
+         const maxTemp = weatherByDay[day].reduce((max, weather) => Math.max(max, weather.main.temp_max), -Infinity);
+         const minTemp = weatherByDay[day].reduce((min, weather) => Math.min(min, weather.main.temp_min), Infinity);
+         const maxHumidity = weatherByDay[day].reduce((max, weather) => Math.max(max, weather.main.humidity), -Infinity);
+         const maxRain = weatherByDay[day].reduce((max, weather) => Math.max(max, (weather.rain ? weather.rain["3h"] : 0)), -Infinity);
+         return { day, maxTemp, minTemp, maxHumidity, maxRain, icon:weatherByDay[day][0].weather[0].icon };
        });
-       maxTempsByDay.forEach((weatherBoxes) => {
-         pageTwoWrap.innerHTML += 
-         `<div class="weather-info-box">
-         <div class="day"> <h2>${getWochentag(weatherBoxes.day)}</h2> </div>
-         <div class="icon">
-           <img
-             class="icon-img"
-             src="https://openweathermap.org/img/wn/${weatherBoxes.icon}@4x.png"
-             alt="IMAGE"
-           />
-         </div>
-         <div class="temperature"> <h2>${weatherBoxes.maxTemp.toFixed(1)}°C</h2>
-         </div>
-       </div>`
+       maxTempsByDay.forEach((weatherBoxes, index) => {
+         if(index <= 5)
+         { 
+            pageTwoWrap.innerHTML += 
+            `<div class="weather-info-box" onclick="showMoreDetails(${index})">
+            <div class="day"> <h2>${getWochentag(weatherBoxes.day)}</h2> </div>
+            <div class="icon">
+            <img
+               class="icon-img"
+               src="https://openweathermap.org/img/wn/${weatherBoxes.icon}@4x.png"
+               alt="IMAGE"
+            />
+            </div>
+            <div class="temperature"> <h2>${weatherBoxes.maxTemp.toFixed(1)}°C</h2>
+            </div>
+            </div>`
+         }
       });
 };
 
-//! Konvertiert das Datum in einen String um der uns die Wochentage abgekürzt ausgibt.
 const getWochentag = (datumString) => {
    const datum = new Date(datumString);
    const wochentage = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
    const wochentagNummer = datum.getDay();
    return wochentage[wochentagNummer];
+};
+
+const showMoreDetails = (index) => {
+   const maxTempsbyDayIndex = maxTempsByDay[index];
+   console.log(maxTempsbyDayIndex);
+   document.querySelector("#text-pt1").innerHTML = `${maxTempsbyDayIndex.minTemp.toFixed(1)}°C`;
+   document.querySelector("#text-pt2").innerHTML = `${maxTempsbyDayIndex.maxTemp.toFixed(1)}°C`;
+   document.querySelector("#text-pt3").innerHTML = `${maxTempsbyDayIndex.maxHumidity}%`;
+   document.querySelector("#text-pt4").innerHTML = `${maxTempsbyDayIndex.maxRain} LITERS`;
 };
 
 

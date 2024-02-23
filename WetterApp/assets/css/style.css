@@ -77,6 +77,37 @@
   padding-right: 10vw;
 }
 
+.margin {
+  margin-bottom: 2vh;
+}
+
+.pt-info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg);
+  width: 80vw;
+  margin: auto;
+  margin-top: 2vh;
+  border-radius: 1rem;
+  padding: 2vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.info-pt2 {
+  text-align: center;
+  color: var(--main);
+  font-size: 1rem;
+}
+
+.placeholder {
+  text-align: center;
+  font-size: 0.8rem;
+  color: white;
+  margin-bottom: vh;
+}
+
 .title {
   font-size: 1.5rem;
   color: white;
