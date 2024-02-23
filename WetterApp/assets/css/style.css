@@ -219,7 +219,7 @@ input:-webkit-autofill:active {
 }
 
 .icon-img {
-  width: 6vw;
+  width: 10vw;
   text-align: center;
 }
 
@@ -234,7 +234,7 @@ input:-webkit-autofill:active {
 
 .icon {
   background-color: var(--bg);
-  padding: 1.2vh;
+  padding: 0.2vh;
   border-radius: 0.8rem;
   width: 15vw;
   text-align: center;
