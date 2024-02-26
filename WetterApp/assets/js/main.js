@@ -98,6 +98,7 @@ getWeather = (weather) => {
       let dayTime = document.querySelector(".slogan");
       dayTime.innerHTML = "Good Night";
       pageOne.style.backgroundImage = "url(assets/img/night.png)"
+      pageTwo.style.backgroundImage = "url(assets/img/night.png)"
       root.style.setProperty("--bg", "rgba(255, 255, 255, 0.2)");
    }
 

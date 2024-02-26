@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 :root {
@@ -18,12 +17,17 @@
   background-image: url(../img/sunny.png);
   min-height: 100vh;
   padding: 2vh;
+  overflow-y: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-two {
   background-image: url(../img/special.png);
   min-height: 105vh;
   padding: 3vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .searchForm {
