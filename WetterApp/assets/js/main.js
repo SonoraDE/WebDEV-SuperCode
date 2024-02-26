@@ -84,21 +84,21 @@ getWeather = (weather) => {
 
    if(hours >= 6 && hours < 11) {
       let dayTime = document.querySelector(".slogan");
-      dayTime.innerHTML = "Guten Morgen"; 
+      dayTime.innerHTML = "Good Morning"; 
    } else if(hours >= 11 && hours < 13) {
       let dayTime = document.querySelector(".slogan");
-      dayTime.innerHTML = "Guten Mittag";
+      dayTime.innerHTML = "Good Noon";
    } else if(hours >= 13 && hours < 17) {
       let dayTime = document.querySelector(".slogan");
-      dayTime.innerHTML = "Schönen Nachmittag";
+      dayTime.innerHTML = "Good Afternoon";
    } else if(hours >= 17 && hours < 23) {
       let dayTime = document.querySelector(".slogan");
-      dayTime.innerHTML = "Guten Abend";
+      dayTime.innerHTML = "Good Evening";
    } else if(hours >= 0 && hours < 6) {
       let dayTime = document.querySelector(".slogan");
-      dayTime.innerHTML = "Gute Nacht";
+      dayTime.innerHTML = "Good Night";
       pageOne.style.backgroundImage = "url(assets/img/night.png)"
-      root.style.setProperty("--bg", "rgba(255, 255, 255, 0.3)");
+      root.style.setProperty("--bg", "rgba(255, 255, 255, 0.2)");
    }
 
    generateDetails(dayWeather);
@@ -144,6 +144,9 @@ const generateDetails = (list) => {
          const maxRain = weatherByDay[day].reduce((max, weather) => Math.max(max, (weather.rain ? weather.rain["3h"] : 0)), -Infinity);
          return { day, maxTemp, minTemp, maxHumidity, maxRain, icon:weatherByDay[day][0].weather[0].icon };
        });
+
+       pageTwoWrap.innerHTML = "";
+
        maxTempsByDay.forEach((weatherBoxes, index) => {
          if(index <= 5)
          { 
