@@ -48,6 +48,7 @@
   margin: auto;
   text-transform: uppercase;
   border-radius: 2rem;
+  backdrop-filter: blur(20px);
 }
 
 .po-content-two {
@@ -59,6 +60,7 @@
   margin-top: 3vh;
   border-radius: 2rem;
   color: white;
+  backdrop-filter: blur(20px);
 }
 
 .po-content-three {
@@ -79,6 +81,7 @@
   padding: 2vh;
   padding-left: 10vw;
   padding-right: 10vw;
+  backdrop-filter: blur(20px);
 }
 
 .margin {
@@ -90,6 +93,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg);
+  backdrop-filter: blur(20px);
   width: 80vw;
   margin: auto;
   margin-top: 2vh;
@@ -217,6 +221,7 @@ input:-webkit-autofill:active {
   border-radius: 1rem;
   padding: 1vh;
   text-align: center;
+  backdrop-filter: blur(20px);
 }
 
 .slogan-two {
@@ -251,6 +256,7 @@ input:-webkit-autofill:active {
   padding: 1vh;
   border-radius: 1rem;
   height: 8vh;
+  backdrop-filter: blur(20px);
 }
 
 .icon-img {
