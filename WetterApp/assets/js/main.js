@@ -10,7 +10,7 @@
 //? Bei Nacht (Ab 0 Uhr) soll ein passender Nacht Hintergrund angezeigt werden bis es wieder morgens ist.
 
 const apiKey = "6f87af3fc269af96cc3cd46aff46307e";
-const errorMessage = "Es ist ein Fehler aufgetreten, bitte versuche es erneut!";
+const errorMessage = "Dieser Ort wurde nicht gefunden, überprüfe deine Angaben!";
 
 const pageOne = document.querySelector(".page-one");
 const pageTwo = document.querySelector(".page-two");
@@ -51,7 +51,6 @@ getWeather = (weather) => {
    let temp = currentWeather.main.temp.toFixed(1);
    let weatherType = currentWeather.weather[0].description;
    let weatherMain = currentWeather.weather[0].main;
-   console.log(weather);
 
    //* OUTPUT
    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@4x.png`;

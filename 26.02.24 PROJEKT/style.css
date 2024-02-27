@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffefba;
+  background: -webkit-linear-gradient(to bottom, #ffffff, #ffefba);
+  background: linear-gradient(to bottom, #ffffff, #ffefba);
+}
+
+nav {
+  background: #ffefba;
+  box-shadow: 0px 0px 5px rgb(65, 65, 65);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 5vw;
+}
+
+.head-title {
+  font-size: 4rem;
+}
+
+.news-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 2rem;
+  background-color: #ffefba;
+  margin-top: 5vh;
+  margin: 5vh 5vh;
+  padding: 2vw 2vw;
+  border-left: solid 5px black;
+  border-right: solid 5px black;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
