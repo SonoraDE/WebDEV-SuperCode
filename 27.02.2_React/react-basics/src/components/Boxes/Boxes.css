@@ -1,0 +1,23 @@
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box-content {
+  width: 20vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  background-color: rgb(29, 29, 29);
+  border-radius: 2rem;
+  padding: 0.5vw 0.5vw;
+  margin-bottom: 5vh;
+}
+
+p {
+  text-align: center;
+  width: 15vw;
+  margin: auto;
+}

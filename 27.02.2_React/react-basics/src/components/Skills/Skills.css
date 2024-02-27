@@ -1,0 +1,17 @@
+.chip {
+  color: white;
+  padding: 10px 10px;
+  border-radius: 1rem;
+  background-color: rgb(29, 29, 29);
+  margin: 1vw 1vw;
+  width: 5vw;
+}
+
+.chip-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  margin: auto;
+  margin-bottom: 5vh;
+}
