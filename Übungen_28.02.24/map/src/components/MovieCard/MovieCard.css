@@ -1,0 +1,10 @@
+.movie-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20vw;
+  background-color: grey;
+  border-radius: 2rem;
+  pad: 1vw 1vw;
+}

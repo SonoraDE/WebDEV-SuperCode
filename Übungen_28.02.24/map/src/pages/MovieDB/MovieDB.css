@@ -1,0 +1,9 @@
+.movie-wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3vw;
+  gap: 5vh;
+}
