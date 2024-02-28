@@ -13,7 +13,7 @@ const movies = [
         director: 'Francis Ford Coppola',
         duration: '2h 55min',
         genre: ['Crime', 'Drama'],
-        rate: '9.2'
+        rate: '1.2'
     },
     {
         title: 'The Godfather: Part II',
@@ -29,7 +29,7 @@ const movies = [
         director: 'Christopher Nolan',
         duration: '2h 32min',
         genre: ['Action', 'Crime', 'Drama', 'Thriller'],
-        rate: '9.0'
+        rate: '3.0'
     },
     {
         title: '12 Angry Men',
@@ -37,7 +37,7 @@ const movies = [
         director: 'Sidney Lumet',
         duration: '1h 36min',
         genre: ['Crime', 'Drama'],
-        rate: '8.9'
+        rate: '5.9'
     },
     {
         title: 'Schindler\'s List',
@@ -45,7 +45,7 @@ const movies = [
         director: 'Steven Spielberg',
         duration: '3h 15min',
         genre: ['Biography', 'Drama', 'History'],
-        rate: '8.9'
+        rate: '4.9'
     },
     {
         title: 'Pulp Fiction',
@@ -77,7 +77,7 @@ const movies = [
         director: 'David Fincher',
         duration: '2h 19min',
         genre: ['Drama'],
-        rate: '8.8'
+        rate: '4.8'
     },
     {
         title: 'The Lord of the Rings: The Fellowship of the Ring',
@@ -85,7 +85,7 @@ const movies = [
         director: 'Peter Jackson',
         duration: '2h 58min',
         genre: ['Adventure', 'Drama', 'Fantasy'],
-        rate: '8.8'
+        rate: '7.8'
     },
     {
         title: 'Forrest Gump',
@@ -93,7 +93,7 @@ const movies = [
         director: 'Robert Zemeckis',
         duration: '2h 22min',
         genre: ['Comedy', 'Drama', 'Romance'],
-        rate: '8.8'
+        rate: '6.8'
     },
     {
         title: 'Star Wars: Episode V - The Empire Strikes Back',
@@ -133,7 +133,7 @@ const movies = [
         director: 'Martin Scorsese',
         duration: '2h 26min',
         genre: ['Crime', 'Drama'],
-        rate: '8.7'
+        rate: '4.7'
     },
     {
         title: 'The Matrix',
@@ -141,7 +141,7 @@ const movies = [
         director: 'Lana Wachowski',
         duration: '2h 16min',
         genre: ['Action', 'Sci-Fi'],
-        rate: '8.7'
+        rate: '5.7'
     },
     {
         title: 'Shichinin no samurai',
@@ -181,7 +181,7 @@ const movies = [
         director: 'Jonathan Demme',
         duration: '1h 58min',
         genre: ['Crime', 'Drama', 'Thriller'],
-        rate: '8.6'
+        rate: '3.6'
     },
     {
         title: 'It\'s a Wonderful Life',
@@ -189,7 +189,7 @@ const movies = [
         director: 'Frank Capra',
         duration: '2h 10min',
         genre: ['Drama', 'Family', 'Fantasy'],
-        rate: '8.6'
+        rate: '4.6'
     },
     {
         title: 'La vita è bella',
@@ -229,7 +229,7 @@ const movies = [
         director: 'Hayao Miyazaki',
         duration: '2h 5min',
         genre: ['Animation', 'Adventure', 'Family', 'Fantasy', 'Mystery'],
-        rate: '8.6'
+        rate: '1.6'
     },
     {
         title: 'American History X',
@@ -237,7 +237,7 @@ const movies = [
         director: 'Tony Kaye',
         duration: '1h 59min',
         genre: ['Crime', 'Drama'],
-        rate: '8.5'
+        rate: '2.5'
     },
     {
         title: 'C\'era una volta il West',
@@ -277,7 +277,7 @@ const movies = [
         director: 'Michael Curtiz',
         duration: '1h 42min',
         genre: ['Drama', 'Romance', 'War'],
-        rate: '8.5'
+        rate: '6.5'
     },
     {
         title: 'City Lights',
@@ -285,7 +285,7 @@ const movies = [
         director: 'Charles Chaplin',
         duration: '1h 27min',
         genre: ['Comedy', 'Drama', 'Romance'],
-        rate: '8.6'
+        rate: '5.6'
     },
     {
         title: 'Intouchables',
@@ -309,7 +309,7 @@ const movies = [
         director: 'Steven Spielberg',
         duration: '1h 55min',
         genre: ['Action', 'Adventure'],
-        rate: '8.5'
+        rate: '4.5'
     },
     {
         title: 'The Pianist',
@@ -317,7 +317,7 @@ const movies = [
         director: 'Roman Polanski',
         duration: '2h 30min',
         genre: ['Biography', 'Drama', 'Music', 'War'],
-        rate: '8.5'
+        rate: '3.5'
     },
     {
         title: 'The Departed',
@@ -325,7 +325,7 @@ const movies = [
         director: 'Martin Scorsese',
         duration: '2h 31min',
         genre: ['Crime', 'Drama', 'Thriller'],
-        rate: '8.5'
+        rate: '2.5'
     },
     {
         title: 'Rear Window',
@@ -437,7 +437,7 @@ const movies = [
         director: 'Giuseppe Tornatore',
         duration: '2h 35min',
         genre: ['Drama'],
-        rate: '8.5'
+        rate: '1.5'
     },
     {
         title: 'Das Leben der Anderen',
@@ -445,7 +445,7 @@ const movies = [
         director: 'Florian Henckel von Donnersmarck',
         duration: '2h 17min',
         genre: ['Drama', 'Thriller'],
-        rate: '8.5'
+        rate: '2.5'
     },
     {
         title: 'Hotaru no haka',
@@ -453,7 +453,7 @@ const movies = [
         director: 'Isao Takahata',
         duration: '1h 29min',
         genre: ['Animation', 'Drama', 'War'],
-        rate: '8.5'
+        rate: '5.5'
     },
     {
         title: 'Blade Runner 2049',
@@ -461,7 +461,7 @@ const movies = [
         director: 'Denis Villeneuve',
         duration: '2h 44min',
         genre: ['Mystery', 'Sci-Fi', 'Thriller'],
-        rate: '8.5'
+        rate: '4.5'
     },
     {
         title: 'Paths of Glory',
@@ -469,7 +469,7 @@ const movies = [
         director: 'Stanley Kubrick',
         duration: '1h 28min',
         genre: ['Drama', 'War'],
-        rate: '8.4'
+        rate: '6.4'
     },
     {
         title: 'Django Unchained',
@@ -477,7 +477,7 @@ const movies = [
         director: 'Quentin Tarantino',
         duration: '2h 45min',
         genre: ['Drama', 'Western'],
-        rate: '8.4'
+        rate: '2.4'
     },
     {
         title: 'The Shining',
@@ -485,7 +485,7 @@ const movies = [
         director: 'Stanley Kubrick',
         duration: '2h 26min',
         genre: ['Drama', 'Horror'],
-        rate: '8.4'
+        rate: '3.4'
     },
     {
         title: 'WALL·E',
@@ -493,7 +493,7 @@ const movies = [
         director: 'Andrew Stanton',
         duration: '1h 38min',
         genre: ['Animation', 'Adventure', 'Family', 'Sci-Fi'],
-        rate: '8.4'
+        rate: '2.4'
     },
     {
         title: 'American Beauty',
@@ -509,7 +509,7 @@ const movies = [
         director: 'Christopher Nolan',
         duration: '2h 44min',
         genre: ['Action', 'Thriller'],
-        rate: '8.4'
+        rate: '4.4'
     },
     {
         title: 'Mononoke-hime',
@@ -549,7 +549,7 @@ const movies = [
         director: 'Sergio Leone',
         duration: '3h 49min',
         genre: ['Crime', 'Drama'],
-        rate: '8.4'
+        rate: '2.4'
     },
     {
         title: 'Das Boot',
@@ -557,7 +557,7 @@ const movies = [
         director: 'Wolfgang Petersen',
         duration: '2h 29min',
         genre: ['Adventure', 'Drama', 'Thriller', 'War'],
-        rate: '8.4'
+        rate: '3.4'
     },
     {
         title: 'Citizen Kane',
@@ -565,7 +565,7 @@ const movies = [
         director: 'Orson Welles',
         duration: '1h 59min',
         genre: ['Drama', 'Mystery'],
-        rate: '8.4'
+        rate: '4.4'
     },
     {
         title: 'Dangal',
@@ -605,7 +605,7 @@ const movies = [
         director: 'Mel Gibson',
         duration: '2h 58min',
         genre: ['Biography', 'Drama', 'History', 'War'],
-        rate: '8.4'
+        rate: '9.4'
     },
     {
         title: 'Reservoir Dogs',
@@ -613,7 +613,7 @@ const movies = [
         director: 'Quentin Tarantino',
         duration: '1h 39min',
         genre: ['Crime', 'Drama', 'Thriller'],
-        rate: '8.3'
+        rate: '6.3'
     },
     {
         title: 'M',
@@ -653,7 +653,7 @@ const movies = [
         director: 'Stanley Kubrick',
         duration: '2h 16min',
         genre: ['Crime', 'Drama', 'Sci-Fi'],
-        rate: '8.3'
+        rate: '5.3'
     },
     {
         title: 'Kimi no na wa.',
@@ -661,7 +661,7 @@ const movies = [
         director: 'Makoto Shinkai',
         duration: '1h 46min',
         genre: ['Animation', 'Drama', 'Fantasy', 'Romance'],
-        rate: '8.5'
+        rate: '4.5'
     },
     {
         title: 'Lawrence of Arabia',
@@ -701,7 +701,7 @@ const movies = [
         director: 'Martin Scorsese',
         duration: '1h 53min',
         genre: ['Crime', 'Drama'],
-        rate: '8.3'
+        rate: '3.3'
     },
     {
         title: 'To Kill a Mockingbird',
@@ -709,7 +709,7 @@ const movies = [
         director: 'Robert Mulligan',
         duration: '2h 9min',
         genre: ['Crime', 'Drama'],
-        rate: '8.3'
+        rate: '2.3'
     },
     {
         title: 'Dunkirk',
@@ -717,7 +717,7 @@ const movies = [
         director: 'Christopher Nolan',
         duration: '1h 46min',
         genre: ['Action', 'Drama', 'History', 'Thriller', 'War'],
-        rate: '8.3'
+        rate: '1.3'
     },
     {
         title: 'Full Metal Jacket',
@@ -733,7 +733,7 @@ const movies = [
         director: 'Stanley Kubrick',
         duration: '2h 29min',
         genre: ['Adventure', 'Sci-Fi'],
-        rate: '8.3'
+        rate: '2.3'
     },
     {
         title: 'Singin\' in the Rain',
@@ -757,7 +757,7 @@ const movies = [
         director: 'John Lasseter',
         duration: '1h 21min',
         genre: ['Animation', 'Adventure', 'Comedy', 'Family', 'Fantasy'],
-        rate: '8.3'
+        rate: '6.3'
     },
     {
         title: 'The Sting',
@@ -781,7 +781,7 @@ const movies = [
         director: 'Vittorio De Sica',
         duration: '1h 29min',
         genre: ['Drama'],
-        rate: '8.3'
+        rate: '9.3'
     },
     {
         title: 'Inglourious Basterds',
@@ -789,7 +789,7 @@ const movies = [
         director: 'Quentin Tarantino',
         duration: '2h 33min',
         genre: ['Adventure', 'Drama', 'War'],
-        rate: '8.3'
+        rate: '7.3'
     },
     {
         title: 'The Kid',
@@ -829,7 +829,7 @@ const movies = [
         director: 'Thomas Vinterberg',
         duration: '1h 55min',
         genre: ['Drama'],
-        rate: '8.3'
+        rate: '4.3'
     },
     {
         title: 'Per qualche dollaro in più',
@@ -837,7 +837,7 @@ const movies = [
         director: 'Sergio Leone',
         duration: '2h 12min',
         genre: ['Western'],
-        rate: '8.3'
+        rate: '5.3'
     },
     {
         title: 'L.A. Confidential',
@@ -845,7 +845,7 @@ const movies = [
         director: 'Curtis Hanson',
         duration: '2h 18min',
         genre: ['Crime', 'Drama', 'Mystery', 'Thriller'],
-        rate: '8.3'
+        rate: '3.3'
     },
     {
         title: 'Scarface',
@@ -949,7 +949,7 @@ const movies = [
         director: 'John Huston',
         duration: '2h 6min',
         genre: ['Adventure', 'Drama', 'Western'],
-        rate: '8.3'
+        rate: '1.3'
     },
     {
         title: 'Unforgiven',
@@ -957,7 +957,7 @@ const movies = [
         director: 'Clint Eastwood',
         duration: '2h 10min',
         genre: ['Drama', 'Western'],
-        rate: '8.2'
+        rate: '2.2'
     },
     {
         title: 'Der Untergang',
@@ -1253,7 +1253,7 @@ const movies = [
         director: 'F.W. Murnau',
         duration: '1h 34min',
         genre: ['Drama', 'Romance'],
-        rate: '8.2'
+        rate: '2.2'
     },
     {
         title: 'Gone with the Wind',
@@ -1277,7 +1277,7 @@ const movies = [
         director: 'Michael Cimino',
         duration: '3h 3min',
         genre: ['Drama', 'War'],
-        rate: '8.2'
+        rate: '6.2'
     },
     {
         title: 'Fargo',
@@ -1293,7 +1293,7 @@ const movies = [
         director: 'M. Night Shyamalan',
         duration: '1h 47min',
         genre: ['Drama', 'Mystery', 'Thriller'],
-        rate: '8.1'
+        rate: '5.1'
     },
     {
         title: 'The Thing',
@@ -1317,7 +1317,7 @@ const movies = [
         director: 'Joel Coen',
         duration: '1h 57min',
         genre: ['Comedy', 'Crime'],
-        rate: '8.2'
+        rate: '1.2'
     },
     {
         title: 'Eskiya',
@@ -1325,7 +1325,7 @@ const movies = [
         director: 'Yavuz Turgul',
         duration: '2h 8min',
         genre: ['Crime', 'Drama', 'Thriller'],
-        rate: '8.4'
+        rate: '6.4'
     },
     {
         title: 'Finding Nemo',
@@ -1341,7 +1341,7 @@ const movies = [
         director: 'Yasujirô Ozu',
         duration: '2h 16min',
         genre: ['Drama'],
-        rate: '8.2'
+        rate: '2.2'
     },
     {
         title: 'There Will Be Blood',
@@ -1373,7 +1373,7 @@ const movies = [
         director: 'Mel Gibson',
         duration: '2h 19min',
         genre: ['Biography', 'Drama', 'History', 'War'],
-        rate: '8.2'
+        rate: '1.2'
     },
     {
         title: 'La La Land',
@@ -1389,7 +1389,7 @@ const movies = [
         director: 'Elem Klimov',
         duration: '2h 22min',
         genre: ['Drama', 'War'],
-        rate: '8.2'
+        rate: '6.2'
     },
     {
         title: 'Kill Bill: Vol. 1',
@@ -1397,7 +1397,7 @@ const movies = [
         director: 'Quentin Tarantino',
         duration: '1h 51min',
         genre: ['Action', 'Crime', 'Thriller'],
-        rate: '8.1'
+        rate: '5.1'
     },
     {
         title: 'Rang De Basanti',
@@ -1405,7 +1405,7 @@ const movies = [
         director: 'Rakeysh Omprakash Mehra',
         duration: '2h 37min',
         genre: ['Comedy', 'Drama', 'History', 'Romance'],
-        rate: '8.3'
+        rate: '4.3'
     },
     {
         title: 'How to Train Your Dragon',
@@ -1445,7 +1445,7 @@ const movies = [
         director: 'Sean Penn',
         duration: '2h 28min',
         genre: ['Adventure', 'Biography', 'Drama'],
-        rate: '8.1'
+        rate: '3.1'
     },
     {
         title: 'Shutter Island',
@@ -1453,7 +1453,7 @@ const movies = [
         director: 'Martin Scorsese',
         duration: '2h 18min',
         genre: ['Mystery', 'Thriller'],
-        rate: '8.1'
+        rate: '2.1'
     },
     {
         title: 'Logan',
@@ -1493,7 +1493,7 @@ const movies = [
         director: 'Neeraj Pandey',
         duration: '1h 44min',
         genre: ['Crime', 'Drama', 'Mystery', 'Thriller'],
-        rate: '8.3'
+        rate: '1.3'
     },
     {
         title: 'Platoon',
@@ -1509,7 +1509,7 @@ const movies = [
         director: 'Terry George',
         duration: '2h 1min',
         genre: ['Biography', 'Drama', 'History', 'War'],
-        rate: '8.1'
+        rate: '2.1'
     },
     {
         title: 'Le salaire de la peur',
@@ -1541,7 +1541,7 @@ const movies = [
         director: 'Jim Sheridan',
         duration: '2h 13min',
         genre: ['Biography', 'Drama'],
-        rate: '8.1'
+        rate: '5.1'
     },
     {
         title: 'Stand by Me',
@@ -1549,7 +1549,7 @@ const movies = [
         director: 'Rob Reiner',
         duration: '1h 29min',
         genre: ['Adventure', 'Drama'],
-        rate: '8.1'
+        rate: '4.1'
     },
     {
         title: 'Persona',
@@ -1597,7 +1597,7 @@ const movies = [
         director: 'Steve McQueen',
         duration: '2h 14min',
         genre: ['Biography', 'Drama', 'History'],
-        rate: '8.1'
+        rate: '10.1'
     },
     {
         title: 'Mad Max: Fury Road',
@@ -1605,7 +1605,7 @@ const movies = [
         director: 'George Miller',
         duration: '2h',
         genre: ['Action', 'Adventure', 'Sci-Fi', 'Thriller'],
-        rate: '8.1'
+        rate: '9.1'
     },
     {
         title: 'Jurassic Park',
@@ -1629,7 +1629,7 @@ const movies = [
         director: 'Clint Eastwood',
         duration: '2h 12min',
         genre: ['Drama', 'Sport'],
-        rate: '8.1'
+        rate: '5.1'
     },
     {
         title: 'Stalker',
@@ -1661,7 +1661,7 @@ const movies = [
         director: 'Peter Weir',
         duration: '1h 43min',
         genre: ['Comedy', 'Drama', 'Sci-Fi'],
-        rate: '8.1'
+        rate: '2.1'
     },
     {
         title: 'Hachi: A Dog\'s Tale',
@@ -1669,7 +1669,7 @@ const movies = [
         director: 'Lasse Hallström',
         duration: '1h 33min',
         genre: ['Drama', 'Family'],
-        rate: '8.1'
+        rate: '3.1'
     },
     {
         title: 'The Maltese Falcon',
@@ -1709,7 +1709,7 @@ const movies = [
         director: 'Federico Fellini',
         duration: '1h 50min',
         genre: ['Drama'],
-        rate: '8.2'
+        rate: '7.2'
     },
     {
         title: 'Paper Moon',
@@ -1717,7 +1717,7 @@ const movies = [
         director: 'Peter Bogdanovich',
         duration: '1h 42min',
         genre: ['Comedy', 'Crime', 'Drama'],
-        rate: '8.2'
+        rate: '4.2'
     },
     {
         title: 'Prisoners',
@@ -1749,7 +1749,7 @@ const movies = [
         director: 'John G. Avildsen',
         duration: '2h',
         genre: ['Drama', 'Sport'],
-        rate: '8.1'
+        rate: '6.1'
     },
     {
         title: 'Catch Me If You Can',
@@ -1757,7 +1757,7 @@ const movies = [
         director: 'Steven Spielberg',
         duration: '2h 21min',
         genre: ['Biography', 'Crime', 'Drama'],
-        rate: '8.1'
+        rate: '5.1'
     },
     {
         title: 'Touch of Evil',
@@ -1933,7 +1933,7 @@ const movies = [
         director: 'Kar-Wai Wong',
         duration: '1h 38min',
         genre: ['Drama', 'Romance'],
-        rate: '8.1'
+        rate: '5.1'
     },
     {
         title: 'Sholay',
@@ -1949,7 +1949,7 @@ const movies = [
         director: 'Gary Trousdale',
         duration: '1h 24min',
         genre: ['Animation', 'Family', 'Fantasy', 'Musical', 'Romance'],
-        rate: '8.0'
+        rate: '4.0'
     },
     {
         title: 'La battaglia di Algeri',
@@ -1965,7 +1965,7 @@ const movies = [
         director: 'Chan-wook Park',
         duration: '2h 24min',
         genre: ['Crime', 'Drama', 'Mystery', 'Romance', 'Thriller'],
-        rate: '8.1'
+        rate: '1.1'
     },
     {
         title: 'Pirates of the Caribbean: The Curse of the Black Pearl',
@@ -1981,7 +1981,7 @@ const movies = [
         director: 'Rajkumar Hirani',
         duration: '2h 33min',
         genre: ['Comedy', 'Drama', 'Fantasy', 'Sci-Fi'],
-        rate: '8.2'
+        rate: '5.2'
     },
     {
         title: 'Dog Day Afternoon',
@@ -1997,7 +1997,7 @@ const movies = [
         director: 'Peter Weir',
         duration: '2h 8min',
         genre: ['Comedy', 'Drama'],
-        rate: '8.0'
+        rate: '5.0'
     }
 ];
 

@@ -3,8 +3,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 20vw;
-  background-color: grey;
+  width: 15vw;
+  background-color: rgb(65, 65, 65);
   border-radius: 2rem;
-  pad: 1vw 1vw;
+  padding: 1vw 1vw;
+  height: 45vh;
+}
+
+.genre {
+  text-align: center;
+}
+
+.bg {
+  background-color: rgb(39, 39, 39);
+  width: 10vw;
+  border-radius: 2rem;
+  margin-bottom: 1vh;
 }

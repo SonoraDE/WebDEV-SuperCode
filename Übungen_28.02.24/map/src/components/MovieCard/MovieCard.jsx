@@ -1,3 +1,4 @@
+import Rating from "../Rating/Rating";
 import "./MovieCard.css";
 
 const MovieCard = (prop) => {
@@ -7,8 +8,10 @@ const MovieCard = (prop) => {
             <p>{prop.year}</p>
             <p>{prop.director}</p>
             <p>{prop.duration}</p>
-            <p>{prop.genre.join(" | ")}</p>
-            <p>{prop.rate}</p>
+            <div className="bg">{prop.genre.map((item, key) => (
+                <p className="genre" key = {key}>{item}</p>
+            ))}</div>
+            <Rating rate = {prop.rate}/>
         </div>
     );
 }
