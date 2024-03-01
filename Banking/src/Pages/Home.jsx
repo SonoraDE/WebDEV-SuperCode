@@ -19,7 +19,9 @@ const Home = () => {
     };
 
     return (
+        <div className="container">
         <section className="banking">
+            <h1>Kontostand:</h1>
             <p className="balance">{Balance}</p>
             <hr />
             <input type="number" name="bank" id="bank" value={Amount} onChange={(event) => setAmount(Number(event.target.value))}/>
@@ -29,6 +31,7 @@ const Home = () => {
             <button onClick={PayOut}>Auszahlen</button>
             </div>
         </section>
+        </div>
     );
 }
  

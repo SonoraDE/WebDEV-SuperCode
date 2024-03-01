@@ -1,19 +1,64 @@
-.banking {
-  text-align: center;
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+.container {
+  width: 30vw;
+  margin: auto;
 }
 
-p {
+.banking {
+  text-align: center;
+  background-color: rgb(73, 73, 73);
+  border: solid 3px rgb(255, 0, 64);
+  margin: 1vw 1vw;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px black;
+}
+
+.balance {
   font-size: 2rem;
+  color: rgb(255, 0, 64);
+  font-weight: 600;
+  font-family: Ruluko;
+  text-shadow: 0px 0px 10px black;
 }
 
 hr {
   width: 20vw;
 }
 
+h1 {
+  color: white;
+  font-family: Ruluko;
+  font-size: 2rem;
+  text-shadow: 0px 0px 10px black;
+}
+
 #bank {
   margin: 1vw 1vw;
+  width: 10vw;
+  height: 3vh;
+  background-color: rgb(255, 0, 64);
+  border: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-family: Ruluko;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px black;
 }
 
 button {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Ruluko;
   margin: 1vw 1vw;
+  background-color: rgb(255, 0, 64);
+  border: none;
+  border-radius: 1rem;
+  padding: 1vw 1vw 1vw 1vw;
+  box-shadow: 0px 0px 10px black;
 }
