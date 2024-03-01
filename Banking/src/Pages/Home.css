@@ -1,0 +1,19 @@
+.banking {
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+}
+
+hr {
+  width: 20vw;
+}
+
+#bank {
+  margin: 1vw 1vw;
+}
+
+button {
+  margin: 1vw 1vw;
+}
