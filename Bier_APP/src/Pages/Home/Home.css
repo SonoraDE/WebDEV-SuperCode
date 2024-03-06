@@ -1,0 +1,36 @@
+.home-container {
+  padding: 0 10vw;
+}
+
+.home-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-img {
+  width: 65vw;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--arrow);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 65vw;
+  height: 4vh;
+  background-color: var(--main);
+  margin-bottom: 0.5vh;
+}
+
+.home-text {
+  color: var(--text);
+  margin: auto;
+  margin-bottom: 3vh;
+  width: 70vw;
+}

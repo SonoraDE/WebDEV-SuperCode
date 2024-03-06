@@ -12,6 +12,8 @@ const Overview = () => {
         .catch((err) => console.error("ABRUFEN DER DATEN FEHLGESCHLAGEN", err));
     }, []);
 
+    console.log(overview);
+
     return (
         <article className="article-container">
            {overview ? ( 

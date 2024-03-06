@@ -1,0 +1,16 @@
+.beer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary);
+  margin: auto;
+  margin-bottom: 3vh;
+  width: 80vw;
+  padding: 5vw 2vw;
+  color: var(--text);
+}
+
+.beer-img {
+  height: 15vh;
+}

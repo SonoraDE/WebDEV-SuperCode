@@ -1,0 +1,21 @@
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: var(--main);
+  margin-bottom: 4vh;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 5vw;
+  height: 3vh;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: var(--arrow);
+}

@@ -35,13 +35,6 @@ const getResult = () => {
     let resultValue = 0;
     let resultKJ = 0;
 
-    //* CHECK VALUES
-    console.log(bodySize);
-    console.log(age);
-    console.log(bodyWeight);
-    console.log(gender);
-    console.log(optionValue);
-
     //* RECHNUNG
     if(gender === 1) {
         grundUmsatz = 655.1 + (9.6 * bodyWeight) + (1.8 * bodySize) - (4.7 * age);
