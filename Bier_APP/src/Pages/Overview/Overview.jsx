@@ -9,12 +9,10 @@ const Overview = () => {
     useEffect(() => {
         fetch("https://ih-beers-api2.herokuapp.com/beers")
         .then((response) => response.json())
-        .then((BeerData) => setBeerData(BeerData))
+        .then((data) => setBeerData(data))
         .catch((error) => console.error("Fehler beim Laden der Daten", error));
     }, []);
-
-    console.log(BeerData);
-
+    
     return (
         <section>
                 {BeerData ? (

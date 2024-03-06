@@ -1,4 +1,7 @@
 body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   --background: #ffffff;
   --text: #000000;
   --main: rgb(0, 102, 219);
