@@ -18,3 +18,8 @@
   text-decoration: none;
   color: var(--arrow);
 }
+
+.arrow {
+  display: flex;
+  align-items: center;
+}

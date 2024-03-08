@@ -12,7 +12,7 @@ const Overview = () => {
         .then((data) => setBeerData(data))
         .catch((error) => console.error("Fehler beim Laden der Daten", error));
     }, []);
-    
+
     return (
         <section>
                 {BeerData ? (

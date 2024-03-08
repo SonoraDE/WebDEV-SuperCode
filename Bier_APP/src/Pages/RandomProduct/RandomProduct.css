@@ -1,0 +1,47 @@
+.beer-container-random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary);
+  margin: auto;
+  margin-bottom: 3vh;
+  width: 80vw;
+  padding: 5vw 5vw;
+  color: var(--text);
+}
+
+.beer-img-random {
+  height: 15vh;
+  margin-top: 5vh;
+}
+
+.beer-name-random {
+  text-align: center;
+  width: 60vw;
+  color: var(--main);
+  font-weight: 600;
+}
+
+.beer-text-random {
+  text-align: center;
+  font-weight: 600;
+}
+
+.beer-desc-random {
+  text-align: left;
+  font-weight: 600;
+  width: 60vw;
+}
+
+.beer-tips-random {
+  text-align: left;
+  width: 60vw;
+  font-weight: 600;
+}
+
+.beer-contribute-random {
+  color: var(--main);
+  text-align: center;
+  font-weight: 600;
+}

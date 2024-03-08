@@ -7,6 +7,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Switch } from '@mui/material';
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -45,9 +46,10 @@ export default function BasicMenu() {
         onClose={handleClose}
         MenuListProps={{
           'aria-labelledby': 'basic-button',
-        }}
-      >
-        <MenuItem onClick={console.log("Menü geöffnet")}>DARKMODE<Switch onChange={() => setIsDark((isDark) => !isDark)}/></MenuItem>
+        }}>
+        <MenuItem>DARKMODE<Switch onChange={() => setIsDark((isDark) => !isDark)}/></MenuItem>
+        <Link to={"/overview"}><MenuItem onClick={handleClose}>ALL BEERS</MenuItem></Link>
+        <Link to= "/beer/random"><MenuItem onClick={handleClose}>RANDOM BEERS</MenuItem></Link>
       </Menu>
     </div>
   );
