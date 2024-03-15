@@ -1,35 +1,34 @@
 import "./FilterButtons.css";
-import movies from "../../assets/data.js";
 
 const FilterButtons = (props) => {
 
     const dateUp = () => {
-        const dataSort = movies.toSorted((a, b ) => a.year - b.year);
+        const dataSort = props.filteredMovies.toSorted((a, b ) => a.year - b.year);
         props.setFilteredMovies(dataSort)
     };
 
     const dateDown = () => {
-        const dataSort = movies.toSorted((a, b ) => b.year - a.year);
+        const dataSort = props.filteredMovies.toSorted((a, b ) => b.year - a.year);
         props.setFilteredMovies(dataSort)
     };
 
     const bestRate = () => {
-        const dataSort = movies.toSorted((a, b ) => b.rate - a.rate);
+        const dataSort = props.filteredMovies.toSorted((a, b ) => b.rate - a.rate);
         props.setFilteredMovies(dataSort)
     };
 
     const aTOz = () => {
-        const dataSort = movies.toSorted((a, b ) => ("" + a.title).localeCompare(b.title));
+        const dataSort = props.filteredMovies.toSorted((a, b ) => ("" + a.title).localeCompare(b.title));
         props.setFilteredMovies(dataSort)
     };
 
     const zTOa = () => {
-        const dataSort = movies.toSorted((a, b ) => ("" + b.title).localeCompare(a.title));
+        const dataSort = props.filteredMovies.toSorted((a, b ) => ("" + b.title).localeCompare(a.title));
         props.setFilteredMovies(dataSort)
     };
 
     const filterGenre = () => {
-        const dataSort = movies.filter((a, b ) => ("" + a.title).localeCompare(b.title));
+        const dataSort = props.filteredMovies.filter((a, b ) => ("" + a.title).localeCompare(b.title));
         props.setFilteredMovies(dataSort)
     };
 

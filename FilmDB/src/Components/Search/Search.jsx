@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Search.css";
 import movies from "../../assets/data.js";
 
@@ -10,6 +10,12 @@ const Search = (props) => {
        const movieSearch = movies.filter((movie) => movie.title.toLowerCase().includes(userInput.toLowerCase()));
        props.setFilteredMovies(movieSearch);
     }
+
+    useEffect(() => {
+        if(userInput.length === 0) {
+            props.setFilteredMovies(movies);
+        }
+    }, [userInput]);
 
     return (
         <section className="search-func">
