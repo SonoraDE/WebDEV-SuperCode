@@ -1,0 +1,26 @@
+.card-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.movie-card {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(19, 19, 19);
+  height: 30vh;
+  width: 15vw;
+  margin: 1vw;
+  text-align: center;
+  padding: 2vw;
+  border-radius: 1rem;
+  border: solid 2px rgb(0, 153, 255);
+}
+
+.movie-card p {
+  margin: 0.3vw;
+  font-weight: 600;
+}
